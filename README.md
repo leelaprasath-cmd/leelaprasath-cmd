@@ -1,46 +1,37 @@
 # 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/telemetry_header.svg" alt="Futuristic Telemetry Header" width="100%" />
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/agentic_core.svg" alt="Agentic AI Cognitive Core" width="100%" />
 </p>
 
+<h1 align="center">LEELA PRASATH</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-1a1b26?style=for-the-badge&logo=python&logoColor=73d0ff" alt="Python" />
-  <img src="https://img.shields.io/badge/WSL2_Ubuntu-1a1b26?style=for-the-badge&logo=ubuntu&logoColor=73d0ff" alt="WSL2" />
-  <img src="https://img.shields.io/badge/Git-1a1b26?style=for-the-badge&logo=git&logoColor=73d0ff" alt="Git" />
-  <img src="https://img.shields.io/badge/VS_Code-1a1b26?style=for-the-badge&logo=visual-studio-code&logoColor=73d0ff" alt="VS Code" />
-</p>
-
-<p align="center">
-  <a href="#-telemetry">Telemetry</a> • 
-  <a href="#-roadmap-tracker">Roadmap</a> • 
-  <a href="#-systems-grid">3D Systems Grid</a> • 
-  <a href="#-repository-index">Repositories</a> • 
-  <a href="#-philosophy">Philosophy</a>
+  <code>BE CSE Student // Future Agentic AI Systems Engineer</code><br>
+  <sub>Systems engineering and autonomous agent architectures in progress.</sub>
 </p>
 
 ---
 
-### 🖥️ Telemetry & System Specs
+### 🖥️ Autonomous Agent Telemetry
 
 <table align="center" width="100%">
   <tr>
     <td width="50%">
-      <strong>System Specifications:</strong>
+      <strong>Agent Profile:</strong>
       <ul>
-        <li><strong>Host:</strong> <code>leela-systems-node-01</code></li>
-        <li><strong>OS Environment:</strong> Windows 11 / WSL2 Ubuntu 22.04 LTS</li>
-        <li><strong>Current Identity:</strong> BE Computer Science &amp; Engineering Student</li>
-        <li><strong>Focus Path:</strong> Distributed Systems &amp; Agentic AI Architecture</li>
+        <li><strong>Host Node:</strong> <code>leela-systems-node-01</code></li>
+        <li><strong>Environment:</strong> Windows 11 / WSL2 Ubuntu 22.04 LTS</li>
+        <li><strong>Identity:</strong> BE Computer Science &amp; Engineering Student</li>
+        <li><strong>Core Specialization:</strong> Distributed Systems &amp; Autonomous Agents</li>
       </ul>
     </td>
     <td width="50%">
       <strong>Engine Status:</strong>
       <ul>
-        <li><strong>Learning Stage:</strong> Week 1 (Roadmap Foundations Completed)</li>
-        <li><strong>Active Stack:</strong> Python, Markdown, Shell scripting</li>
-        <li><strong>Current Objective:</strong> Building robust fundamentals</li>
-        <li><strong>Discipline:</strong> Quality &gt; Hype | Deep understanding &gt; Shortcuts</li>
+        <li><strong>Current Stage:</strong> Week 1 (Roadmap Foundations Completed)</li>
+        <li><strong>Active Stack:</strong> Python, Markdown, Shell Scripting, Git</li>
+        <li><strong>Active Objective:</strong> Building robust data structures &amp; memory channels</li>
+        <li><strong>Development Model:</strong> Hype-free, code correctness, test-driven logic</li>
       </ul>
     </td>
   </tr>
@@ -48,7 +39,7 @@
 
 ---
 
-### 🗺️ Roadmap Tracker
+### 🗺️ Roadmap Log
 
 ```text
 [ PHASE 1: CORE FOUNDATIONS ] ────────── [ PHASE 2: SYSTEMS ENGINE ] ───────── [ PHASE 3: AGENT INFRASTRUCTURE ]
@@ -67,33 +58,6 @@ Phase 3: [░░░░░░░░░░░░░░░░░░░░] 0.0% Com
 
 > [!NOTE]
 > I am committed to documenting every step of my engineering journey. I do not skip weeks, I do not rush. Each repository represents an active lab notebook.
-
----
-
-### 🌐 3D Systems Cluster Grid
-
-Below is the 3D isometric telemetry representation of my local system nodes and cluster grid:
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/isometric_grid.svg" alt="3D Systems Cluster Grid" width="100%" />
-</p>
-
----
-
-<details>
-<summary>📡 <strong>Dynamic GitHub API Streams (Real-time Feeds)</strong></summary>
-<br>
-<blockquote>
-  <em>Note: These dynamic panels interface with external telemetry and will fully populate once public commits are detected on the network.</em>
-</blockquote>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=4" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=compact&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=4" alt="Top Languages" width="48%" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leelaprasath-cmd&theme=tokyonight&hide_border=true&ring=73d0ff&fire=f7768e&currStreakNum=73d0ff&sideNums=73d0ff&v=4" alt="Streak Stats" width="97%" />
-</p>
-</details>
 
 ---
 
@@ -130,6 +94,23 @@ class EngineeringMindset:
 ```
 
 *“You cannot construct agentic AI without understanding the networks and operating systems they run on. Build the foundation first.”*
+
+---
+
+<details>
+<summary>📡 <strong>GitHub API Telemetry Feeds</strong></summary>
+<br>
+<blockquote>
+  <em>Note: These dynamic panels interface with external telemetry and will fully populate once public commits are detected on the network.</em>
+</blockquote>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=5" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=compact&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=5" alt="Top Languages" width="48%" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leelaprasath-cmd&theme=tokyonight&hide_border=true&ring=73d0ff&fire=f7768e&currStreakNum=73d0ff&sideNums=73d0ff&v=5" alt="Streak Stats" width="97%" />
+</p>
+</details>
 
 ---
 
