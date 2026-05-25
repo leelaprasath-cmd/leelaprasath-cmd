@@ -2,10 +2,8 @@
   <defs>
     <!-- Imports -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
-      
       text {
-        font-family: 'JetBrains Mono', monospace;
+        font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
         font-size: 11px;
         fill: #565f89;
       }
