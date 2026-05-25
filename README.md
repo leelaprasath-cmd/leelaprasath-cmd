@@ -1,13 +1,7 @@
 # 
 
 <p align="center">
-  <img src="assets/typing.svg" alt="Terminal Typing Animation" width="620" />
-</p>
-
-<h1 align="center">LEELA PRASATH</h1>
-<p align="center">
-  <code>Future Agentic AI &amp; Systems Engineer</code><br>
-  <sub>Academic: BE Computer Science &amp; Engineering Student</sub>
+  <img src="assets/header.svg" alt="Futuristic Telemetry Header" width="100%" />
 </p>
 
 <p align="center">
@@ -20,9 +14,9 @@
 <p align="center">
   <a href="#-telemetry">Telemetry</a> • 
   <a href="#-roadmap-tracker">Roadmap</a> • 
-  <a href="#-github-dashboard">Stats</a> • 
-  <a href="#-repository-index">Repositories</a> • 
-  <a href="#-philosophy">Philosophy</a>
+  <a href="#-systems-grid">3D Systems Grid</a> • 
+  <a href="#-github-telemetry">Dynamic Stats</a> • 
+  <a href="#-repository-index">Repositories</a>
 </p>
 
 ---
@@ -46,7 +40,7 @@
         <li><strong>Learning Stage:</strong> Week 1 (Roadmap Foundations Completed)</li>
         <li><strong>Active Stack:</strong> Python, Markdown, Shell scripting</li>
         <li><strong>Current Objective:</strong> Building robust fundamentals</li>
-        <li><strong>Discipline:</strong> Quality &gt; Hype | Understanding &gt; Shortcuts</li>
+        <li><strong>Discipline:</strong> Quality &gt; Hype | Deep understanding &gt; Shortcuts</li>
       </ul>
     </td>
   </tr>
@@ -76,19 +70,27 @@ Phase 3: [░░░░░░░░░░░░░░░░░░░░] 0.0% Com
 
 ---
 
-### 📊 GitHub Dashboard
+### 🌐 3D Systems Contribution Grid
+
+Below is the live-animated 3D representation of my commit activity and servers grid (updated every 24 hours):
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=compact&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26" alt="Top Languages" width="48%" />
+  <img src="profile-3d-contrib/profile-night-view-animate.svg" alt="3D Contribution City Grid" width="100%" />
+</p>
+
+---
+
+### 📊 GitHub Telemetry Streams
+
+*If the live streams below are caching or syncing, they represent dynamic external server node feeds.*
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=2" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=compact&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=2" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leelaprasath-cmd&theme=tokyonight&hide_border=true&ring=73d0ff&fire=f7768e&currStreakNum=73d0ff&sideNums=73d0ff" alt="Streak Stats" width="97%" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/github-pages/github-contribution-grid-snake-dark.svg" alt="Contribution Grid Snake" width="97%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leelaprasath-cmd&theme=tokyonight&hide_border=true&ring=73d0ff&fire=f7768e&currStreakNum=73d0ff&sideNums=73d0ff&v=2" alt="Streak Stats" width="97%" />
 </p>
 
 ---
@@ -132,7 +134,7 @@ class EngineeringMindset:
 ### 📡 Active Transmission
 
 - 💬 **Ask me about**: My progression roadmap, python internals, computer architecture basics.
-- 📫 **Connect with me**: [LinkedIn](https://www.linkedin.com/in/leela-prasath-p-682121307/) (Updated link) | [Email](mailto:leelaprasath.p.2024.cse@gmail.com) (Updated link)
+- 📫 **Connect with me**: [LinkedIn](https://www.linkedin.com/in/leela-prasath-p-682121307/) | [Email](mailto:leelaprasath.p.2024.cse@gmail.com)
 - ⚙️ **Current hardware**: Intel Core i5 / 16GB RAM / WSL2 (Ubuntu 22.04 LTS)
 
 <p align="center">
