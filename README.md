@@ -1,7 +1,7 @@
 # 
 
 <p align="center">
-  <img src="assets/header.svg" alt="Futuristic Telemetry Header" width="100%" />
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/header.svg" alt="Futuristic Telemetry Header" width="100%" />
 </p>
 
 <p align="center">
@@ -75,7 +75,7 @@ Phase 3: [░░░░░░░░░░░░░░░░░░░░] 0.0% Com
 Below is the live-animated 3D representation of my commit activity and servers grid (updated every 24 hours):
 
 <p align="center">
-  <img src="profile-3d-contrib/profile-night-view-animate.svg" alt="3D Contribution City Grid" width="100%" />
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/profile-3d-contrib/profile-night-view-animate.svg" alt="3D Contribution City Grid" width="100%" />
 </p>
 
 ---
@@ -85,12 +85,12 @@ Below is the live-animated 3D representation of my commit activity and servers g
 *If the live streams below are caching or syncing, they represent dynamic external server node feeds.*
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=2" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=compact&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=2" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=3" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=compact&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=3" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leelaprasath-cmd&theme=tokyonight&hide_border=true&ring=73d0ff&fire=f7768e&currStreakNum=73d0ff&sideNums=73d0ff&v=2" alt="Streak Stats" width="97%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leelaprasath-cmd&theme=tokyonight&hide_border=true&ring=73d0ff&fire=f7768e&currStreakNum=73d0ff&sideNums=73d0ff&v=3" alt="Streak Stats" width="97%" />
 </p>
 
 ---
