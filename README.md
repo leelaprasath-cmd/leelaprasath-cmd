@@ -15,8 +15,8 @@
   <a href="#-telemetry">Telemetry</a> • 
   <a href="#-roadmap-tracker">Roadmap</a> • 
   <a href="#-systems-grid">3D Systems Grid</a> • 
-  <a href="#-github-telemetry">Dynamic Stats</a> • 
-  <a href="#-repository-index">Repositories</a>
+  <a href="#-repository-index">Repositories</a> • 
+  <a href="#-philosophy">Philosophy</a>
 </p>
 
 ---
@@ -70,28 +70,30 @@ Phase 3: [░░░░░░░░░░░░░░░░░░░░] 0.0% Com
 
 ---
 
-### 🌐 3D Systems Contribution Grid
+### 🌐 3D Systems Cluster Grid
 
-Below is the live-animated 3D representation of my commit activity and servers grid (updated every 24 hours):
+Below is the 3D isometric telemetry representation of my local system nodes and cluster grid:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/profile-3d-contrib/profile-night-view-animate.svg" alt="3D Contribution City Grid" width="100%" />
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/server_grid.svg?v=2" alt="3D Systems Cluster Grid" width="100%" />
 </p>
 
 ---
 
-### 📊 GitHub Telemetry Streams
-
-*If the live streams below are caching or syncing, they represent dynamic external server node feeds.*
-
+<details>
+<summary>📡 <strong>Dynamic GitHub API Streams (Real-time Feeds)</strong></summary>
+<br>
+<blockquote>
+  <em>Note: These dynamic panels interface with external telemetry and will fully populate once public commits are detected on the network.</em>
+</blockquote>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=3" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=compact&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=3" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=4" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=compact&theme=tokyonight&hide_border=true&title_color=73d0ff&icon_color=bb9af3&text_color=a9b1d6&bg_color=1a1b26&v=4" alt="Top Languages" width="48%" />
 </p>
-
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leelaprasath-cmd&theme=tokyonight&hide_border=true&ring=73d0ff&fire=f7768e&currStreakNum=73d0ff&sideNums=73d0ff&v=3" alt="Streak Stats" width="97%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leelaprasath-cmd&theme=tokyonight&hide_border=true&ring=73d0ff&fire=f7768e&currStreakNum=73d0ff&sideNums=73d0ff&v=4" alt="Streak Stats" width="97%" />
 </p>
+</details>
 
 ---
 
