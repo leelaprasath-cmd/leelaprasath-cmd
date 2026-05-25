@@ -1,7 +1,7 @@
 # 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/header.svg" alt="Futuristic Telemetry Header" width="100%" />
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/header.svg?v=3" alt="Futuristic Telemetry Header" width="100%" />
 </p>
 
 <p align="center">
