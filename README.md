@@ -1,7 +1,7 @@
 # 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/header.svg?v=4" alt="Futuristic Telemetry Header" width="100%" />
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/telemetry_header.svg" alt="Futuristic Telemetry Header" width="100%" />
 </p>
 
 <p align="center">
@@ -75,7 +75,7 @@ Phase 3: [░░░░░░░░░░░░░░░░░░░░] 0.0% Com
 Below is the 3D isometric telemetry representation of my local system nodes and cluster grid:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/server_grid.svg?v=2" alt="3D Systems Cluster Grid" width="100%" />
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/isometric_grid.svg" alt="3D Systems Cluster Grid" width="100%" />
 </p>
 
 ---
