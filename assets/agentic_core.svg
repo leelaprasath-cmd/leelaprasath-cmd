@@ -1,10 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320" preserveAspectRatio="xMidYMid meet">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;500;700&amp;display=swap');
-      
       text {
-        font-family: 'JetBrains Mono', monospace;
+        font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
         font-size: 10px;
         fill: #565f89;
       }
@@ -28,7 +26,7 @@
         font-size: 9.5px;
       }
 
-      /* Glowing paths & pulses */
+      /* Glowing paths and pulses */
       .loop-line {
         stroke: #383e5a;
         stroke-width: 1.5;
