@@ -1,7 +1,7 @@
 # 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/agentic_core.svg?v=2" alt="Agentic AI Cognitive Core" width="100%" />
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/intelligence_loop.svg?v=6" alt="Agentic AI Cognitive Core" width="100%" />
 </p>
 
 <h1 align="center">LEELA PRASATH</h1>
