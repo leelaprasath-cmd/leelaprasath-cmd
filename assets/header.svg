@@ -27,7 +27,7 @@
         font-size: 10px;
       }
 
-      /* Glowing paths & pulses */
+      /* Glowing paths and pulses */
       .connection-line {
         stroke: #383e5a;
         stroke-width: 1.5;
@@ -159,7 +159,7 @@
   <text x="530" y="140" class="node-text">NODE_EVAL</text>
 
 
-  <!-- ================= RIGHT: TELEMETRY RADAR & CPU GRAPH ================= -->
+  <!-- ================= RIGHT: TELEMETRY RADAR AND CPU GRAPH ================= -->
   <!-- High-tech Scanning Radar -->
   <g transform="translate(0, 0)">
     <!-- Radar Base Circle -->
