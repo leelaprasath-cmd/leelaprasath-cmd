@@ -61,6 +61,16 @@ Phase 3: [░░░░░░░░░░░░░░░░░░░░] 0.0% Com
 
 ---
 
+### 📈 Agentic Telemetry Activity
+
+Below is the live-animated telemetry graph tracking my daily commit frequency and network signals:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/activity.svg" alt="Agentic Activity Graph" width="100%" />
+</p>
+
+---
+
 ### 📂 Repository Index
 
 To support an elite growth plan, my studies are divided into six clean, structural repositories:
