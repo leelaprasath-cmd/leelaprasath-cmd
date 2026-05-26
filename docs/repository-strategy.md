@@ -26,7 +26,7 @@ python-foundations/
 │   └── workflows/
 │       └── lint.yml          # Ruff or Flake8 lint checker
 ├── src/
-│   ├── week1_env/            # Environment setup scripts & WSL2 diagnostics
+│   ├── week1_env/            # Environment setup scripts &amp; WSL2 diagnostics
 │   ├── week2_oop/            # Classes, interfaces, encapsulation labs
 │   └── week3_stdlib/         # os, sys, datetime, json libraries
 ├── tests/
@@ -56,7 +56,7 @@ pytest tests/
 ```
 ```
 
-### Learning Progression & Commit Strategy
+### Learning Progression &amp; Commit Strategy
 - **Stage 1 (Weeks 1-2)**: Basic structures and classes. Commit standard: `feat(oop): implement polymorphism and abstract base class tests`.
 - **Stage 2 (Weeks 3-4)**: Context managers, file streams. Commit standard: `docs(io): document context manager behavior for file streams`.
 
@@ -105,7 +105,7 @@ pytest tests/
 ```
 ```
 
-### Learning Progression & Commit Strategy
+### Learning Progression &amp; Commit Strategy
 - **Stage 1 (Weeks 2-3)**: Linear data structures. Commit standard: `feat(ds): implement doubly linked list with structural integrity tests`.
 - **Stage 2 (Weeks 4-5)**: Sorting, recursion. Commit standard: `test(algos): add unit tests and execution benchmarks for quicksort`.
 
@@ -122,13 +122,13 @@ roadmap-notes/
 ├── phase1_foundations/       # Week 1 - 4 study summaries, lecture notes
 ├── phase2_systems/           # Week 5 - 8 networking, databases, OS theory
 ├── phase3_agents/            # Week 9 - 12 AI Agentic architectures, LLM papers
-├── reading_list/             # Book & paper reviews (e.g. DDIA, clean code)
+├── reading_list/             # Book &amp; paper reviews (e.g. DDIA, clean code)
 └── README.md
 ```
 
 ### README Template
 ```markdown
-# Systems Engineering & AI Roadmap Logs
+# Systems Engineering &amp; AI Roadmap Logs
 
 Chronological study notes, conceptual architectures, reading reviews, and roadmap milestones.
 
@@ -141,7 +141,7 @@ Chronological study notes, conceptual architectures, reading reviews, and roadma
 - **Active Focus**: Phase 1 - Transitioning from Python basics to Computer Science principles.
 ```
 
-### Learning Progression & Commit Strategy
+### Learning Progression &amp; Commit Strategy
 - Keep notes clean and formatted in Markdown. 
 - Commit standard: `docs(notes): update Week 1 review notes on Unix file systems`.
 
@@ -184,7 +184,7 @@ pytest tests/
 ```
 ```
 
-### Learning Progression & Commit Strategy
+### Learning Progression &amp; Commit Strategy
 - **Stage 1 (Weeks 4-5)**: Linear Algebra scripts. Commit standard: `feat(math): add matrix transformation functions and unit tests`.
 - **Stage 2 (Weeks 6-7)**: Supervised learning models. Commit standard: `feat(models): implement gradient descent for linear regression`.
 
@@ -214,7 +214,7 @@ backend-engineering/
 
 ### README Template
 ```markdown
-# Backend Engineering & Network Sandbox
+# Backend Engineering &amp; Network Sandbox
 
 Experimental implementations of low-level networking, protocols, and backend API structures.
 
@@ -228,7 +228,7 @@ pytest tests/
 ```
 ```
 
-### Learning Progression & Commit Strategy
+### Learning Progression &amp; Commit Strategy
 - **Stage 1 (Weeks 6-7)**: TCP/IP socket practice. Commit: `feat(net): build multi-threaded TCP echo server in python`.
 - **Stage 2 (Weeks 8-9)**: Web APIs and databases. Commit: `feat(api): design structured SQLite endpoints with transaction tracking`.
 
@@ -254,7 +254,7 @@ system-design-notes/
 
 ### README Template
 ```markdown
-# System Design & Distributed Systems Analysis
+# System Design &amp; Distributed Systems Analysis
 
 Theoretical study guides, architectural diagrams, caching algorithms, and system models.
 
@@ -263,6 +263,6 @@ Theoretical study guides, architectural diagrams, caching algorithms, and system
 - **System Analysis**: Documenting message queues and event-driven backends.
 ```
 
-### Learning Progression & Commit Strategy
+### Learning Progression &amp; Commit Strategy
 - **Stage 1 (Weeks 8-9)**: Eviction cache code. Commit: `feat(cache): implement LRU cache with O(1) lookups and eviction tests`.
 - **Stage 2 (Weeks 10-12)**: System architecture study reports. Commit: `docs(design): draft architecture diagram for event-driven telemetry pipeline`.

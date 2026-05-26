@@ -1,4 +1,4 @@
-# Profile Optimization & Maintenance Checklist
+# Profile Optimization &amp; Maintenance Checklist
 
 Follow this checklist to initialize, configure, and maintain an elite systems engineering profile on GitHub.
 
@@ -42,7 +42,7 @@ GitHub allows you to pin up to 6 repositories to the top of your profile. Arrang
 
 ---
 
-## ⏳ Step 4: Long-Term Growth & Commit Habits
+## ⏳ Step 4: Long-Term Growth &amp; Commit Habits
 To establish a credible systems engineer profile, adopt these professional commit rules:
 - **Write Good Commits**: Use conventional commits (e.g., `feat(hash): implement hash collision unit tests`). Avoid vague messages like `update code` or `fixed bugs`.
 - **Maintain a Clean Grid**: Focus on high-quality commits on 3-5 days per week. Avoid using automated fake green-grid script tools, as experienced engineers spot them immediately.
