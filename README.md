@@ -1,5 +1,9 @@
 # 
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/header.svg?v=1" alt="Profile Banner" width="100%" />
+</p>
+
 <h1 align="center">LEELA PRASATH</h1>
 <p align="center">
   <code>BE CSE Student // Future Agentic AI Systems Engineer</code><br>

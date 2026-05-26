@@ -1,0 +1,530 @@
+<svg width="800" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient (Darker stormy sky) -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1624" />
+      <stop offset="50%" stop-color="#1a1e36" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+
+    <!-- =============================================
+         REALISTIC OCEAN WATER GRADIENTS
+         Deep navy depths → dark teal → surface cyan
+         ============================================= -->
+
+    <!-- Deepest water layer (ocean floor visible through water) -->
+    <linearGradient id="waterDeep" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#0c4a6e" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#082f49" stop-opacity="0.98" />
+      <stop offset="100%" stop-color="#0a1628" stop-opacity="1"   />
+    </linearGradient>
+
+    <!-- Mid-depth water -->
+    <linearGradient id="waterMid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#155e75" stop-opacity="0.7"  />
+      <stop offset="40%" stop-color="#0e7490" stop-opacity="0.8"  />
+      <stop offset="100%" stop-color="#0c4a6e" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Surface water (catches sky light) -->
+    <linearGradient id="waterSurface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#22d3ee" stop-opacity="0.35" />
+      <stop offset="30%" stop-color="#06b6d4" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#0891b2" stop-opacity="0.55" />
+    </linearGradient>
+
+    <!-- Foam / whitecap highlight -->
+    <linearGradient id="waterFoam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#e0f2fe" stop-opacity="0.6"  />
+      <stop offset="30%" stop-color="#bae6fd" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"   />
+    </linearGradient>
+
+    <!-- Surface shimmer (light reflection) -->
+    <linearGradient id="waterShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#ffffff" stop-opacity="0"    />
+      <stop offset="15%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0"    />
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.12" />
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0"    />
+      <stop offset="75%" stop-color="#ffffff" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"   />
+    </linearGradient>
+
+    <!-- Soft radial highlight for foam particles -->
+    <radialGradient id="foamDot">
+      <stop offset="0%"  stop-color="#ffffff" stop-opacity="0.7"  />
+      <stop offset="40%" stop-color="#e0f2fe" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#bae6fd" stop-opacity="0"   />
+    </radialGradient>
+
+    <!-- Sweeping Spotlight Beam Gradient -->
+    <linearGradient id="spotlightGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- =============================================
+         SOFT-EDGE CLOUD GRADIENTS (GitHub-safe)
+         ============================================= -->
+
+    <!-- Bright puff -->
+    <radialGradient id="puffBright">
+      <stop offset="0%"  stop-color="#94a3b8" stop-opacity="1" />
+      <stop offset="70%" stop-color="#64748b" stop-opacity="0.95"  />
+      <stop offset="90%" stop-color="#475569" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#334155" stop-opacity="0"   />
+    </radialGradient>
+
+    <!-- Mid-tone puff -->
+    <radialGradient id="puffMid">
+      <stop offset="0%"  stop-color="#475569" stop-opacity="1"  />
+      <stop offset="75%" stop-color="#334155" stop-opacity="0.95"  />
+      <stop offset="95%" stop-color="#1e293b" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"   />
+    </radialGradient>
+
+    <!-- Dark puff -->
+    <radialGradient id="puffDark">
+      <stop offset="0%"  stop-color="#1e293b" stop-opacity="1" />
+      <stop offset="75%" stop-color="#0f172a" stop-opacity="0.95" />
+      <stop offset="95%" stop-color="#020617" stop-opacity="0.6"  />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"   />
+    </radialGradient>
+
+    <!-- Very dark core -->
+    <radialGradient id="puffDeep">
+      <stop offset="0%"  stop-color="#0f172a" stop-opacity="1"  />
+      <stop offset="80%" stop-color="#020617" stop-opacity="0.9"  />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"   />
+    </radialGradient>
+
+    <!-- White highlight -->
+    <radialGradient id="puffWhite">
+      <stop offset="0%"  stop-color="#cbd5e1" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#94a3b8" stop-opacity="0.6" />
+      <stop offset="90%" stop-color="#64748b" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#475569" stop-opacity="0"   />
+    </radialGradient>
+
+    <!-- Subtle wisp -->
+    <radialGradient id="puffWisp">
+      <stop offset="0%"  stop-color="#64748b" stop-opacity="0.5"  />
+      <stop offset="70%" stop-color="#475569" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#334155" stop-opacity="0"   />
+    </radialGradient>
+    
+    <!-- Heavy rain pattern -->
+    <pattern id="rainPattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <line x1="20" y1="0" x2="5" y2="30" stroke="#93c5fd" stroke-width="1.5" opacity="0.5" stroke-linecap="round" />
+      <line x1="80" y1="50" x2="65" y2="80" stroke="#7dd3fc" stroke-width="1" opacity="0.3" stroke-linecap="round" />
+      <line x1="140" y1="20" x2="125" y2="50" stroke="#a5b4fc" stroke-width="2" opacity="0.6" stroke-linecap="round" />
+      <line x1="190" y1="120" x2="175" y2="150" stroke="#93c5fd" stroke-width="1.5" opacity="0.4" stroke-linecap="round" />
+      <line x1="40" y1="150" x2="25" y2="180" stroke="#7dd3fc" stroke-width="1" opacity="0.4" stroke-linecap="round" />
+      <line x1="110" y1="90" x2="95" y2="120" stroke="#a5b4fc" stroke-width="1.5" opacity="0.5" stroke-linecap="round" />
+      <line x1="160" y1="170" x2="145" y2="200" stroke="#93c5fd" stroke-width="1" opacity="0.35" stroke-linecap="round" />
+      <line x1="60" y1="110" x2="45" y2="140" stroke="#a5b4fc" stroke-width="2" opacity="0.55" stroke-linecap="round" />
+    </pattern>
+
+    <!-- Cloud Type A: Cumulonimbus -->
+    <g id="stormCloud">
+      <ellipse cx="70" cy="35" rx="85" ry="40" fill="url(#puffWisp)" opacity="0.5" />
+      <ellipse cx="60" cy="40" rx="90" ry="35" fill="url(#puffWisp)" opacity="0.35" />
+      <ellipse cx="40" cy="52" rx="38" ry="14" fill="url(#puffDeep)" opacity="0.9" />
+      <ellipse cx="70" cy="55" rx="45" ry="16" fill="url(#puffDeep)" opacity="0.85" />
+      <ellipse cx="100" cy="52" rx="35" ry="13" fill="url(#puffDeep)" opacity="0.8" />
+      <ellipse cx="55" cy="50" rx="50" ry="12" fill="url(#puffDark)" opacity="0.7" />
+      <ellipse cx="85" cy="48" rx="42" ry="14" fill="url(#puffDark)" opacity="0.65" />
+      <ellipse cx="30" cy="40" rx="28" ry="18" fill="url(#puffMid)" opacity="0.85" />
+      <ellipse cx="55" cy="35" rx="32" ry="22" fill="url(#puffMid)" opacity="0.9" />
+      <ellipse cx="80" cy="32" rx="30" ry="20" fill="url(#puffMid)" opacity="0.85" />
+      <ellipse cx="105" cy="38" rx="26" ry="16" fill="url(#puffMid)" opacity="0.8" />
+      <ellipse cx="45" cy="42" rx="35" ry="16" fill="url(#puffMid)" opacity="0.7" />
+      <ellipse cx="90" cy="42" rx="32" ry="15" fill="url(#puffMid)" opacity="0.65" />
+      <ellipse cx="35" cy="28" rx="22" ry="15" fill="url(#puffBright)" opacity="0.9" />
+      <ellipse cx="58" cy="22" rx="26" ry="17" fill="url(#puffBright)" opacity="0.95" />
+      <ellipse cx="82" cy="20" rx="24" ry="16" fill="url(#puffBright)" opacity="0.9" />
+      <ellipse cx="100" cy="26" rx="20" ry="13" fill="url(#puffBright)" opacity="0.8" />
+      <ellipse cx="48" cy="26" rx="18" ry="12" fill="url(#puffBright)" opacity="0.7" />
+      <ellipse cx="72" cy="24" rx="20" ry="14" fill="url(#puffBright)" opacity="0.75" />
+      <ellipse cx="50" cy="16" rx="16" ry="10" fill="url(#puffWhite)" opacity="0.9" />
+      <ellipse cx="72" cy="14" rx="14" ry="9"  fill="url(#puffWhite)" opacity="0.85" />
+      <ellipse cx="38" cy="20" rx="12" ry="8"  fill="url(#puffWhite)" opacity="0.7" />
+      <ellipse cx="90" cy="18" rx="13" ry="8"  fill="url(#puffWhite)" opacity="0.65" />
+      <ellipse cx="8"   cy="44" rx="16" ry="10" fill="url(#puffWisp)" opacity="0.6" />
+      <ellipse cx="125" cy="40" rx="14" ry="10" fill="url(#puffWisp)" opacity="0.5" />
+      <ellipse cx="15"  cy="36" rx="12" ry="8"  fill="url(#puffWisp)" opacity="0.4" />
+      <ellipse cx="118" cy="34" rx="11" ry="7"  fill="url(#puffWisp)" opacity="0.35" />
+    </g>
+
+    <!-- Cloud Type B: Medium storm cloud -->
+    <g id="stormCloudB">
+      <ellipse cx="52" cy="30" rx="62" ry="30" fill="url(#puffWisp)" opacity="0.4" />
+      <ellipse cx="35" cy="44" rx="30" ry="11" fill="url(#puffDeep)" opacity="0.8" />
+      <ellipse cx="60" cy="46" rx="35" ry="12" fill="url(#puffDeep)" opacity="0.75" />
+      <ellipse cx="80" cy="44" rx="25" ry="10" fill="url(#puffDark)" opacity="0.7" />
+      <ellipse cx="30" cy="34" rx="24" ry="15" fill="url(#puffMid)" opacity="0.85" />
+      <ellipse cx="55" cy="30" rx="28" ry="18" fill="url(#puffMid)" opacity="0.9" />
+      <ellipse cx="78" cy="32" rx="22" ry="14" fill="url(#puffMid)" opacity="0.8" />
+      <ellipse cx="42" cy="36" rx="26" ry="13" fill="url(#puffMid)" opacity="0.65" />
+      <ellipse cx="38" cy="22" rx="18" ry="12" fill="url(#puffBright)" opacity="0.9" />
+      <ellipse cx="58" cy="18" rx="20" ry="14" fill="url(#puffBright)" opacity="0.95" />
+      <ellipse cx="76" cy="22" rx="16" ry="11" fill="url(#puffBright)" opacity="0.8" />
+      <ellipse cx="50" cy="12" rx="12" ry="8"  fill="url(#puffWhite)" opacity="0.85" />
+      <ellipse cx="66" cy="14" rx="10" ry="7"  fill="url(#puffWhite)" opacity="0.7" />
+      <ellipse cx="8"  cy="38" rx="12" ry="8"  fill="url(#puffWisp)" opacity="0.5" />
+      <ellipse cx="96" cy="36" rx="10" ry="7"  fill="url(#puffWisp)" opacity="0.4" />
+    </g>
+
+    <!-- Cloud Type C: Wispy -->
+    <g id="stormCloudC">
+      <ellipse cx="35" cy="24" rx="42" ry="20" fill="url(#puffWisp)" opacity="0.35" />
+      <ellipse cx="30" cy="34" rx="24" ry="8"  fill="url(#puffDark)" opacity="0.65" />
+      <ellipse cx="50" cy="32" rx="20" ry="7"  fill="url(#puffDark)" opacity="0.55" />
+      <ellipse cx="25" cy="26" rx="18" ry="11" fill="url(#puffMid)" opacity="0.8" />
+      <ellipse cx="45" cy="24" rx="20" ry="12" fill="url(#puffMid)" opacity="0.85" />
+      <ellipse cx="60" cy="26" rx="14" ry="10" fill="url(#puffMid)" opacity="0.7" />
+      <ellipse cx="32" cy="18" rx="14" ry="9"  fill="url(#puffBright)" opacity="0.85" />
+      <ellipse cx="48" cy="16" rx="16" ry="10" fill="url(#puffBright)" opacity="0.9" />
+      <ellipse cx="42" cy="12" rx="10" ry="6"  fill="url(#puffWhite)" opacity="0.75" />
+      <ellipse cx="6"  cy="28" rx="10" ry="6"  fill="url(#puffWisp)" opacity="0.45" />
+      <ellipse cx="70" cy="26" rx="8"  ry="5"  fill="url(#puffWisp)" opacity="0.35" />
+    </g>
+
+    <!-- Neon Border Gradient -->
+    <linearGradient id="neonBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="lightningGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="neonGlow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+
+    <!-- Shark fin definition -->
+    <g id="sharkFin">
+      <ellipse cx="45" cy="20" rx="15" ry="3" fill="#bae6fd" opacity="0.4" />
+      <ellipse cx="35" cy="20" rx="10" ry="2" fill="#e0f2fe" opacity="0.5" />
+      <path d="M0,20 C10,10 15,-15 25,-20 C27,-21 30,-19 28,-15 C25,-5 20,10 40,20 Z" fill="#1e293b" />
+      <path d="M25,-20 C27,-21 30,-19 28,-15 C25,-5 20,10 40,20 C30,10 27,-10 25,-20 Z" fill="#334155" opacity="0.7" />
+      <path d="M0,20 C10,10 15,-15 25,-20 C23,-15 15,5 10,20 Z" fill="#0f172a" opacity="0.6" />
+      <ellipse cx="-5" cy="20" rx="8" ry="2" fill="#e0f2fe" opacity="0.6" />
+      <path d="M-10,20 Q-5,16 5,20" fill="none" stroke="#f8fafc" stroke-width="1.5" opacity="0.5" />
+    </g>
+
+    <style>
+      .title { fill: #00f2fe; filter: url(#shadow); font-family: 'Consolas', 'Menlo', 'Monaco', 'Ubuntu Mono', monospace; font-size: 38px; font-weight: 900; text-anchor: middle; letter-spacing: -0.5px; }
+      .sub1 { fill: #ffd700; filter: url(#shadow); font-family: 'Consolas', 'Menlo', 'Monaco', 'Ubuntu Mono', monospace; font-size: 20px; font-weight: 700; text-anchor: middle; animation: fadeIn 0.5s ease-out 5s forwards; opacity: 0; letter-spacing: 0.5px; }
+      .sub2 { fill: #f7fafc; filter: url(#shadow); font-family: 'Consolas', 'Menlo', 'Monaco', 'Ubuntu Mono', monospace; font-size: 14px; font-style: italic; font-weight: 500; text-anchor: middle; animation: fadeIn 0.5s ease-out 5.4s forwards; opacity: 0; }
+      
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(5px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      /* === DECRYPT ANIMATION === */
+      .decryptText { fill: #00f2fe; filter: url(#shadow); font-family: 'Consolas', 'Menlo', 'Monaco', 'Ubuntu Mono', monospace; font-size: 38px; font-weight: 900; text-anchor: middle; opacity: 0; }
+      .dec1 { animation: cycle 0.7s infinite; animation-delay: 0.0s; }
+      .dec2 { animation: cycle 0.7s infinite; animation-delay: 0.1s; }
+      .dec3 { animation: cycle 0.7s infinite; animation-delay: 0.2s; }
+      .dec4 { animation: cycle 0.7s infinite; animation-delay: 0.3s; }
+      .dec5 { animation: cycle 0.7s infinite; animation-delay: 0.4s; }
+      .dec6 { animation: cycle 0.7s infinite; animation-delay: 0.5s; }
+      .dec7 { animation: cycle 0.7s infinite; animation-delay: 0.6s; }
+
+      @keyframes cycle { 0%, 14.2% { opacity: 1; } 14.3%, 100% { opacity: 0; } }
+
+      .decryptWrapper { animation: hideWrapper 5s forwards; }
+      @keyframes hideWrapper { 0%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+
+      .finalReveal { animation: showFinal 5s forwards; opacity: 0; }
+      @keyframes showFinal { 0%, 99.9% { opacity: 0; } 100% { opacity: 1; } }
+
+      /* infinite moving wave/cloud shifts using translateX */
+      .waterBase  { animation: moveLeft 25s linear infinite; }
+      .waterMid1  { animation: moveLeft 18s linear infinite; }
+      .waterMid2  { animation: moveLeft 14s linear infinite; }
+      .waterSurf1 { animation: moveLeft 10s linear infinite; }
+      .waterSurf2 { animation: moveLeft 8s linear infinite; }
+      .waterFoam1 { animation: moveLeft 7s linear infinite; }
+      .waterFoam2 { animation: moveLeft 9s linear infinite; }
+      .waterShim  { animation: moveLeft 20s linear infinite; }
+      .clouds { animation: moveLeft 30s linear infinite; }
+      .clouds2 { animation: moveLeft 45s linear infinite; }
+
+      @keyframes moveLeft {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-800px); }
+      }
+
+      /* Spotlight Beam Sweeping Left to Right */
+      .spotlight {
+        animation: sweepLight 5s linear infinite;
+      }
+      @keyframes sweepLight {
+        0% { transform: translateX(-600px); }
+        100% { transform: translateX(1000px); }
+      }
+
+      /* === LIGHTNING FLASH === */
+      .lightning { animation: flash 4s ease-in-out infinite; }
+      .lightning1 { animation-delay: 0s; }
+      .lightning2 { animation-delay: 1.8s; }
+      .lightning3 { animation-delay: 3.2s; }
+      .lightning4 { animation-delay: 0.6s; }
+      .lightning5 { animation-delay: 2.5s; }
+
+      @keyframes flash {
+        0%, 100% { opacity: 0; }
+        4% { opacity: 1; }
+        6% { opacity: 0; }
+        8% { opacity: 0.8; }
+        10% { opacity: 0; }
+      }
+
+      /* === HEAVY RAIN FALLING === */
+      .heavyRain1 { animation: fallRain 0.6s linear infinite; }
+      .heavyRain2 { animation: fallRain 0.8s linear infinite; }
+      .heavyRain3 { animation: fallRain 1.1s linear infinite; }
+
+      @keyframes fallRain {
+        0% { transform: translateY(-200px); }
+        100% { transform: translateY(0px); }
+      }
+
+      /* === SKY FLASH === */
+      .skyFlash { animation: ambientFlash 4s ease-in-out infinite; }
+      .skyFlash1 { animation-delay: 0s; }
+      .skyFlash2 { animation-delay: 1.8s; }
+
+      @keyframes ambientFlash {
+        0%, 100% { opacity: 0; }
+        4% { opacity: 0.08; }
+        6% { opacity: 0; }
+        8% { opacity: 0.05; }
+        10% { opacity: 0; }
+      }
+
+      /* === NEON BORDER PULSE === */
+      .neonBorderRect { animation: borderPulse 4s ease-in-out infinite; }
+
+      @keyframes borderPulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.9; }
+      }
+
+      /* === SHARK FIN PATROLS === */
+      .sharkFin1 { animation: finPatrol1 30s linear infinite; transform-origin: 20px 20px; }
+      @keyframes finPatrol1 {
+        0%   { transform: translate(430px, 191px) scaleX(1); opacity: 0.9; }
+        45%  { transform: translate(150px, 191px) scaleX(1); opacity: 0.9; }
+        50%  { transform: translate(130px, 191px) scaleX(-1); opacity: 0.9; }
+        95%  { transform: translate(410px, 191px) scaleX(-1); opacity: 0.9; }
+        100% { transform: translate(430px, 191px) scaleX(1); opacity: 0.9; }
+      }
+
+      .sharkFin2 { animation: finPatrol2 36s linear infinite; animation-delay: -12s; transform-origin: 20px 20px; }
+      @keyframes finPatrol2 {
+        0%   { transform: translate(700px, 194px) scaleX(1); opacity: 0.85; }
+        45%  { transform: translate(300px, 194px) scaleX(1); opacity: 0.85; }
+        50%  { transform: translate(280px, 194px) scaleX(-1); opacity: 0.85; }
+        95%  { transform: translate(680px, 194px) scaleX(-1); opacity: 0.85; }
+        100% { transform: translate(700px, 194px) scaleX(1); opacity: 0.85; }
+      }
+
+      .sharkFin3 { animation: finPatrol3 26s linear infinite; animation-delay: -5s; transform-origin: 20px 20px; }
+      @keyframes finPatrol3 {
+        0%   { transform: translate(850px, 196px) scale(0.85, 0.85); opacity: 0.8; }
+        45%  { transform: translate(450px, 196px) scale(0.85, 0.85); opacity: 0.8; }
+        50%  { transform: translate(430px, 196px) scale(-0.85, 0.85); opacity: 0.8; }
+        95%  { transform: translate(830px, 196px) scale(-0.85, 0.85); opacity: 0.8; }
+        100% { transform: translate(850px, 196px) scale(0.85, 0.85); opacity: 0.8; }
+      }
+
+      .sharkFin4 { animation: finPatrol4 42s linear infinite; animation-delay: -20s; transform-origin: 20px 20px; }
+      @keyframes finPatrol4 {
+        0%   { transform: translate(350px, 189px) scale(0.7, 0.7); opacity: 0.7; }
+        45%  { transform: translate(-50px, 189px) scale(0.7, 0.7); opacity: 0.7; }
+        50%  { transform: translate(-70px, 189px) scale(-0.7, 0.7); opacity: 0.7; }
+        95%  { transform: translate(330px, 189px) scale(-0.7, 0.7); opacity: 0.7; }
+        100% { transform: translate(350px, 189px) scale(0.7, 0.7); opacity: 0.7; }
+      }
+
+      /* === GLITCH GHOST COPIES (RGBsplit) === */
+      .glitchR { animation: glitchRight 3s steps(1, end) infinite; fill: #ff0040; font-family: 'Consolas', 'Menlo', 'Monaco', 'Ubuntu Mono', monospace; font-size: 38px; font-weight: 900; text-anchor: middle; }
+      .glitchL { animation: glitchLeft 3s steps(1, end) infinite; fill: #00f2fe; font-family: 'Consolas', 'Menlo', 'Monaco', 'Ubuntu Mono', monospace; font-size: 38px; font-weight: 900; text-anchor: middle; }
+
+      @keyframes glitchRight {
+        0%, 100% { opacity: 0; transform: translateX(0); }
+        7% { opacity: 0.7; transform: translateX(3px); }
+        8% { opacity: 0.7; transform: translateX(-2px); }
+        9% { opacity: 0; transform: translateX(0); }
+        32% { opacity: 0; transform: translateX(0); }
+        33% { opacity: 0.5; transform: translateX(4px); }
+        34% { opacity: 0.6; transform: translateX(-1px); }
+        35% { opacity: 0; transform: translateX(0); }
+        54% { opacity: 0; transform: translateX(0); }
+        55% { opacity: 0.8; transform: translateX(2px); }
+        56% { opacity: 0; transform: translateX(0); }
+        78% { opacity: 0; transform: translateX(0); }
+        79% { opacity: 0.6; transform: translateX(-3px); }
+        80% { opacity: 0.5; transform: translateX(2px); }
+        81% { opacity: 0; transform: translateX(0); }
+      }
+
+      @keyframes glitchLeft {
+        0%, 100% { opacity: 0; transform: translateX(0); }
+        7% { opacity: 0.5; transform: translateX(-3px); }
+        8% { opacity: 0.6; transform: translateX(2px); }
+        9% { opacity: 0; transform: translateX(0); }
+        32% { opacity: 0; transform: translateX(0); }
+        33% { opacity: 0.6; transform: translateX(-4px); }
+        34% { opacity: 0.4; transform: translateX(1px); }
+        35% { opacity: 0; transform: translateX(0); }
+        54% { opacity: 0; transform: translateX(0); }
+        55% { opacity: 0.6; transform: translateX(-2px); }
+        56% { opacity: 0; transform: translateX(0); }
+        78% { opacity: 0; transform: translateX(0); }
+        79% { opacity: 0.5; transform: translateX(3px); }
+        80% { opacity: 0.7; transform: translateX(-2px); }
+        81% { opacity: 0; transform: translateX(0); }
+      }
+    </style>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#bg)" rx="15px" />
+  
+  <clipPath id="clipBox">
+    <rect width="100%" height="100%" rx="15px" />
+  </clipPath>
+  
+  <g clip-path="url(#clipBox)">
+    <!-- Sky Flash -->
+    <rect width="100%" height="100%" fill="#c4b5fd" class="skyFlash skyFlash1" />
+    <rect width="100%" height="100%" fill="#93c5fd" class="skyFlash skyFlash2" />
+
+    <!-- Sweeping Spotlight -->
+    <polygon points="100,-50 300,-50 150,300 -50,300" fill="url(#spotlightGrad)" class="spotlight" />
+
+    <!-- Rain Streaks -->
+    <rect x="-100" y="-200" width="1000" height="600" fill="url(#rainPattern)" class="heavyRain1" />
+    <rect x="-150" y="-300" width="1000" height="600" fill="url(#rainPattern)" class="heavyRain2" opacity="0.8" />
+    <rect x="-50" y="-250" width="1000" height="600" fill="url(#rainPattern)" class="heavyRain3" opacity="0.6" />
+
+    <!-- Distant soft clouds (slow) -->
+    <g class="clouds2" opacity="0.75">
+      <use href="#stormCloudC" transform="translate(100, 18) scale(1.4)" />
+      <use href="#stormCloudB" transform="translate(350, 8) scale(1.0)" />
+      <use href="#stormCloudC" transform="translate(580, 25) scale(1.6)" />
+      <use href="#stormCloudB" transform="translate(750, 2) scale(0.9)" />
+      <use href="#stormCloudC" transform="translate(900, 18) scale(1.4)" />
+      <use href="#stormCloudB" transform="translate(1150, 8) scale(1.0)" />
+      <use href="#stormCloudC" transform="translate(1380, 25) scale(1.6)" />
+      <use href="#stormCloudB" transform="translate(1550, 2) scale(0.9)" />
+    </g>
+
+    <!-- Close large clouds (fast) -->
+    <g class="clouds" opacity="1.0">
+      <use href="#stormCloud" transform="translate(30, -10) scale(1.0)" />
+      <use href="#stormCloudB" transform="translate(220, 5) scale(1.1)" />
+      <use href="#stormCloud" transform="translate(380, -5) scale(1.3)" />
+      <use href="#stormCloudC" transform="translate(560, -15) scale(1.5)" />
+      <use href="#stormCloud" transform="translate(680, 0) scale(0.9)" />
+      <use href="#stormCloud" transform="translate(830, -10) scale(1.0)" />
+      <use href="#stormCloudB" transform="translate(1020, 5) scale(1.1)" />
+      <use href="#stormCloud" transform="translate(1180, -5) scale(1.3)" />
+      <use href="#stormCloudC" transform="translate(1360, -15) scale(1.5)" />
+      <use href="#stormCloud" transform="translate(1480, 0) scale(0.9)" />
+    </g>
+
+    <!-- Lightning bolts -->
+    <g class="lightning lightning1">
+      <polygon points="355,48 361,62 357,62 365,82 353,66 357,66 351,48" fill="#fbbf24" filter="url(#lightningGlow)" />
+    </g>
+    <g class="lightning lightning2">
+      <polygon points="105,40 110,52 107,52 114,68 103,55 107,55 102,40" fill="#fde68a" filter="url(#lightningGlow)" />
+    </g>
+    <g class="lightning lightning3">
+      <polygon points="585,38 592,56 588,56 598,80 584,60 588,60 582,38" fill="#fbbf24" filter="url(#lightningGlow)" />
+      <polygon points="592,56 598,62 596,62 602,72 594,64 596,64 590,56" fill="#fde68a" filter="url(#lightningGlow)" />
+    </g>
+    <g class="lightning lightning4">
+      <polygon points="735,42 739,54 737,54 743,66 733,56 736,56 732,42" fill="#fde68a" filter="url(#lightningGlow)" />
+    </g>
+    <g class="lightning lightning5">
+      <polygon points="255,45 260,58 257,58 264,74 254,60 257,60 252,45" fill="#fbbf24" filter="url(#lightningGlow)" />
+    </g>
+
+    <!-- Layered parallax ocean water waves -->
+    <path class="waterBase" d="M0,185 C40,178 80,192 120,185 C160,178 200,195 240,188 C280,181 320,193 360,186 C400,179 440,194 480,187 C520,180 560,192 600,185 C640,178 680,194 720,187 C760,180 800,192 840,185 C880,178 920,194 960,187 C1000,180 1040,192 1080,185 C1120,178 1160,194 1200,187 C1240,180 1280,193 1320,186 C1360,179 1400,194 1440,187 C1480,180 1520,192 1560,185 L1600,185 L1600,260 L0,260 Z" fill="url(#waterDeep)" />
+    <path class="waterMid1" d="M0,195 C50,188 90,202 140,195 C190,188 230,205 280,198 C330,191 370,204 420,197 C470,190 510,206 560,199 C610,192 650,205 700,198 C750,191 790,206 840,199 C890,192 930,205 980,198 C1030,191 1070,206 1120,199 C1170,192 1210,205 1260,198 C1310,191 1350,206 1400,199 C1450,192 1490,205 1540,198 L1600,198 L1600,260 L0,260 Z" fill="url(#waterMid)" opacity="0.85" />
+    <path class="waterMid2" d="M0,200 C35,206 75,194 110,200 C145,206 185,193 220,199 C255,205 295,193 330,199 C365,205 405,192 440,198 C475,204 515,193 550,199 C585,205 625,192 660,198 C695,204 735,193 770,199 C805,205 845,192 880,198 C915,204 955,193 990,199 C1025,205 1065,192 1100,198 C1135,204 1175,193 1210,199 C1245,205 1285,192 1320,198 C1355,204 1395,193 1430,199 C1465,205 1505,192 1540,198 L1600,198 L1600,260 L0,260 Z" fill="url(#waterMid)" opacity="0.6" />
+    <path class="waterSurf1" d="M0,208 C30,202 60,214 100,208 C140,202 170,216 210,210 C250,204 280,215 320,209 C360,203 390,216 430,210 C470,204 500,215 540,209 C580,203 610,216 650,210 C690,204 720,215 760,209 C800,203 830,216 870,210 C910,204 940,215 980,209 C1020,203 1050,216 1090,210 C1130,204 1160,215 1200,209 C1240,203 1270,216 1310,210 C1350,204 1380,215 1420,209 C1460,203 1490,216 1530,210 L1600,210 L1600,260 L0,260 Z" fill="url(#waterSurface)" opacity="0.9" />
+    <path class="waterSurf2" d="M0,215 C25,210 50,220 80,215 C110,210 135,222 165,217 C195,212 220,222 250,217 C280,212 305,223 335,218 C365,213 390,222 420,217 C450,212 475,223 505,218 C535,213 560,222 590,217 C620,212 645,223 675,218 C705,213 730,222 760,217 C790,212 815,223 845,218 C875,213 900,222 930,217 C960,212 985,223 1015,218 C1045,213 1070,222 1100,217 C1130,212 1155,223 1185,218 C1215,213 1240,222 1270,217 C1300,212 1325,223 1355,218 C1385,213 1410,222 1440,217 C1470,212 1495,223 1525,218 L1600,218 L1600,260 L0,260 Z" fill="url(#waterSurface)" opacity="0.5" />
+    <path class="waterFoam1" d="M0,206 C20,203 40,208 65,205 C90,202 110,210 140,207 C170,204 190,211 220,208 C250,205 270,212 300,209 C330,206 350,212 380,209 C410,206 430,213 460,210 C490,207 510,213 540,210 C570,207 590,213 620,210 C650,207 670,213 700,210 C730,207 750,214 780,211 C810,208 830,214 860,211 C890,208 910,214 940,211 C970,208 990,214 1020,211 C1050,208 1070,214 1100,211 C1130,208 1150,214 1180,211 C1210,208 1230,214 1260,211 C1290,208 1310,215 1340,212 C1370,209 1390,214 1420,211 C1450,208 1470,214 1500,211 C1530,208 1550,214 1580,211 L1600,211 L1600,216 L0,216 Z" fill="url(#waterFoam)" opacity="0.7" />
+    <path class="waterFoam2" d="M0,212 C15,209 35,215 55,212 C75,209 95,216 120,213 C145,210 165,217 190,214 C215,211 235,217 260,214 C285,211 305,218 330,215 C355,212 375,218 400,215 C425,212 445,219 470,216 C495,213 515,219 540,216 C565,213 585,219 610,216 C635,213 655,220 680,217 C705,214 725,220 750,217 C775,214 795,220 820,217 C845,214 865,220 890,217 C915,214 935,221 960,218 C985,215 1005,221 1030,218 C1055,215 1075,221 1100,218 C1125,215 1145,221 1170,218 C1195,215 1215,222 1240,219 C1265,216 1285,222 1310,219 C1335,216 1355,222 1380,219 C1405,216 1425,222 1450,219 C1475,216 1495,222 1520,219 C1545,216 1565,222 1590,219 L1600,219 L1600,222 L0,222 Z" fill="url(#waterFoam)" opacity="0.45" />
+
+    <!-- Shimmer reflection -->
+    <rect class="waterShim" x="0" y="200" width="1600" height="25" fill="url(#waterShimmer)" opacity="0.4" />
+
+    <!-- Foam highlights -->
+    <ellipse cx="120" cy="210" rx="4" ry="2" fill="url(#foamDot)" opacity="0.6" />
+    <ellipse cx="280" cy="212" rx="3" ry="1.5" fill="url(#foamDot)" opacity="0.5" />
+    <ellipse cx="390" cy="208" rx="5" ry="2" fill="url(#foamDot)" opacity="0.55" />
+    <ellipse cx="510" cy="214" rx="3" ry="1.5" fill="url(#foamDot)" opacity="0.45" />
+    <ellipse cx="620" cy="209" rx="4" ry="2" fill="url(#foamDot)" opacity="0.5" />
+    <ellipse cx="740" cy="213" rx="3" ry="1.5" fill="url(#foamDot)" opacity="0.4" />
+    <ellipse cx="180" cy="215" rx="2" ry="1" fill="url(#foamDot)" opacity="0.35" />
+    <ellipse cx="450" cy="211" rx="3" ry="1.5" fill="url(#foamDot)" opacity="0.5" />
+    <ellipse cx="580" cy="216" rx="2" ry="1" fill="url(#foamDot)" opacity="0.3" />
+    <ellipse cx="700" cy="210" rx="4" ry="2" fill="url(#foamDot)" opacity="0.45" />
+
+    <!-- Shark fin patrols -->
+    <g class="sharkFin1"><use href="#sharkFin" /></g>
+    <g class="sharkFin2"><use href="#sharkFin" /></g>
+    <g class="sharkFin3"><use href="#sharkFin" /></g>
+    <g class="sharkFin4"><use href="#sharkFin" /></g>
+  </g>
+  
+  <!-- Glowing border -->
+  <rect width="99%" height="98%" x="4" y="2" fill="none" stroke="url(#neonBorder)" stroke-width="1.5" rx="15px" filter="url(#neonGlow)" class="neonBorderRect" />
+  
+  <!-- === HACKER DECRYPT SEQUENCE === -->
+  <g class="decryptWrapper">
+    <text x="50%" y="80" class="decryptText dec1">0x3A7F2B9D8E1C5A6B4F2D</text>
+    <text x="50%" y="80" class="decryptText dec2">L#3e!l_ P$r*a!s%a&amp;h_01</text>
+    <text x="50%" y="80" class="decryptText dec3">H@x$9, %Q*p! 0xL#e3laP!</text>
+    <text x="50%" y="80" class="decryptText dec4">H3!&amp;o, W%rLd_ I'm L3e1a</text>
+    <text x="50%" y="80" class="decryptText dec5">He[lo, W0r]d! I'x Leel@</text>
+    <text x="50%" y="80" class="decryptText dec6">Hell0, Wor1d! I'm Leela P.</text>
+    <text x="50%" y="80" class="decryptText dec7">Hello, World! I'm Leela Prasath</text>
+  </g>
+
+  <!-- === GLITCH REVEAL === -->
+  <g class="finalReveal">
+    <text x="50%" y="80" class="glitchR">Hello, World! I'm Leela Prasath 👨‍💻</text>
+    <text x="50%" y="80" class="glitchL">Hello, World! I'm Leela Prasath 👨‍💻</text>
+    <text x="50%" y="80" class="title">Hello, World! I'm Leela Prasath 👨‍💻</text>
+  </g>
+  <text x="50%" y="125" class="sub1">Future Agentic AI Systems Engineer</text>
+  <text x="50%" y="155" class="sub2">(Building distributed systems &amp; autonomous agent loops from scratch 🛠️)</text>
+</svg>
