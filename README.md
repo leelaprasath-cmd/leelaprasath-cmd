@@ -1,9 +1,5 @@
 # 
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/intelligence_loop.svg?v=6" alt="Agentic AI Cognitive Core" width="100%" />
-</p>
-
 <h1 align="center">LEELA PRASATH</h1>
 <p align="center">
   <code>BE CSE Student // Future Agentic AI Systems Engineer</code><br>
@@ -21,25 +17,6 @@
 - Academic Path   : BE Computer Science &amp; Engineering
 - Core Focus      : Distributed Systems &amp; Autonomous Agent Loops
 - Current Status  : Active Learning (Roadmap Phase 1, Week 1)
-```
-
----
-
-### 🗺️ Roadmap Log
-
-```text
-[ PHASE 1: CORE FOUNDATIONS ] ────────── [ PHASE 2: SYSTEMS ENGINE ] ───────── [ PHASE 3: AGENT INFRASTRUCTURE ]
-  ├── [x] Week 1: Python &amp; Env Setup       ├── [ ] Week 5: Network Protocols       ├── [ ] Week 9: Agent Loops &amp; Tools
-  ├── [/] Week 2: OOP &amp; Data structures    ├── [ ] Week 6: Databases &amp; SQL         ├── [ ] Week 10: Multi-Agent Comms
-  ├── [ ] Week 3: Systems Thinking (CS50)  ├── [ ] Week 7: Backend Engines         ├── [ ] Week 11: LLM Orchestration
-  └── [ ] Week 4: Basic Math & ML Intro    └── [ ] Week 8: Intro to Concurrency    └── [ ] Week 12: Production & Scaling
-```
-
-```text
-Progress Matrix:
-Phase 1: [██░░░░░░░░░░░░░░░░░░] 8.3% Completed
-Phase 2: [░░░░░░░░░░░░░░░░░░░░] 0.0% Completed
-Phase 3: [░░░░░░░░░░░░░░░░░░░░] 0.0% Completed
 ```
 
 > [!NOTE]
