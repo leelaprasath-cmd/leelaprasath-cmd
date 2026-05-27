@@ -1,0 +1,53 @@
+<svg width="800" height="50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes typing {
+      0% { width: 0; }
+      40% { width: 100%; }
+      60% { width: 100%; }
+      100% { width: 0; }
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    .typewriter-container {
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 18px;
+      font-weight: 700;
+      fill: url(#textGrad);
+      letter-spacing: 2px;
+    }
+
+    .cursor {
+      animation: blink 0.8s step-end infinite;
+      fill: #00f2fe;
+    }
+
+    .line1 { animation: typing 8s steps(44) infinite; overflow: hidden; }
+    .line1-clip { animation: typing 8s steps(44) infinite; }
+  </style>
+
+  <clipPath id="typingClip">
+    <rect x="0" y="0" height="50" class="line1-clip">
+      <animate attributeName="width" values="0;800;800;0" keyTimes="0;0.4;0.6;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+  </clipPath>
+
+  <text x="50%" y="32" text-anchor="middle" class="typewriter-container" clip-path="url(#typingClip)">
+    &gt; LEELA PRASATH // BE CSE // Future Agentic AI Systems Engineer_
+  </text>
+
+  <rect x="0" y="15" width="2" height="25" class="cursor">
+    <animate attributeName="x" values="0;400;400;0" keyTimes="0;0.4;0.6;1" dur="8s" repeatCount="indefinite" />
+  </rect>
+</svg>

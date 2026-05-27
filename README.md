@@ -1,13 +1,11 @@
 # 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/header.svg?v=1" alt="Profile Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/banner.gif" alt="Profile Banner" width="100%" />
 </p>
 
-<h1 align="center">LEELA PRASATH</h1>
 <p align="center">
-  <code>BE CSE Student // Future Agentic AI Systems Engineer</code><br>
-  <sub>Systems engineering and autonomous agent architectures in progress.</sub>
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/typewriter.svg" alt="Typing Animation" width="100%" />
 </p>
 
 ---
