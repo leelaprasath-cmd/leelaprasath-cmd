@@ -2,19 +2,19 @@
 
 <!-- ANIMATED GIF BANNER -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/pinterest-video.gif" alt="The Journey to Agentic AI Engineering" width="100%" />
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/pinterest-video-16-9.gif" alt="The Journey to Agentic AI Engineering" width="100%" />
 </p>
 
-<!-- TYPING ANIMATION - Theme Appropriate -->
+<!-- TYPING ANIMATION - Premium Theme -->
 <p align="center">
   <a href="https://github.com/leelaprasath-cmd">
-    <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=24&duration=3000&pause=1500&color=4f46e5&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=60&lines=Computer+Science+Student;Future+Agentic+AI+Engineer;Building+Strong+Foundations" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&duration=2500&pause=1200&color=ffffff&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=Leela+Prasath;Computer+Science+Student;Future+Agentic+AI+Engineer" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/leelaprasath-cmd">
-    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=500&size=16&duration=4000&pause=2000&color=10b981&center=true&vCenter=true&width=600&lines=Learn+Deeply.;Build+Consistently.;Engineer+the+Future." alt="Philosophy Typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=3000&pause=1500&color=a5b4fc&center=true&vCenter=true&width=650&lines=Building+Strong+Foundations;Week+1+of+Phase+1+Complete;The+Journey+Begins" alt="Status Typing" />
   </a>
 </p>
 
