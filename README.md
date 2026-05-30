@@ -1,20 +1,20 @@
 <!-- LEELA PRASATH - GitHub Profile README -->
 
-<!-- BANNER -->
+<!-- ANIMATED GIF BANNER -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/banner.jpg" alt="Developer Mode On" width="100%" />
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/pinterest-video.gif" alt="The Journey to Agentic AI Engineering" width="100%" />
 </p>
 
-<!-- TYPING ANIMATION - Decrypt Style -->
+<!-- TYPING ANIMATION - Theme Appropriate -->
 <p align="center">
   <a href="https://github.com/leelaprasath-cmd">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%23%40!%3E+LEELA+PRASATH+%3C!%40%23;%3E_+BE+CSE+%7C%7C+Agentic+AI+Systems+Engineer" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=24&duration=3000&pause=1500&color=4f46e5&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=60&lines=Computer+Science+Student;Future+Agentic+AI+Engineer;Building+Strong+Foundations" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/leelaprasath-cmd">
-    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=600&size=18&duration=4000&pause=800&color=FFD700&center=true&vCenter=true&width=750&lines=%24+echo+%22Systems+engineering+and+autonomous+agent+architectures%22;%24+status+--verbose+%3E%3E+BUILDING+IN+PROGRESS...;%24+cat+/etc/mindset+%7C+grep+%22no+shortcuts%22;%24+./compile+--target+production-grade+AI+systems" alt="Subtitle Typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=500&size=16&duration=4000&pause=2000&color=10b981&center=true&vCenter=true&width=600&lines=Learn+Deeply.;Build+Consistently.;Engineer+the+Future." alt="Philosophy Typing" />
   </a>
 </p>
 
@@ -35,93 +35,87 @@
 ---
 
 <!-- ABOUT ME -->
-## 🖥️ About Me
+## �‍💻 About Me
 
 ```python
-class LeeelaPrasath:
+class LeelaPrasath:
     def __init__(self):
-        self.role       = "BE CSE Student | Future Agentic AI Systems Engineer"
+        self.role       = "Computer Science Student | Future Agentic AI Engineer"
         self.college    = "Jerusalem College of Engineering"
         self.os         = "Windows 11 / WSL2 Ubuntu 22.04 LTS"
-        self.learning   = ["Python", "DSA", "Linear Algebra", "Calculus", "Probability"]
-        self.building   = "Production-grade AI agent architectures"
-        self.mindset    = "No shortcuts. No hype. Build the foundation first."
+        self.learning   = ["Python", "Git & GitHub", "Linux Basics", "Problem Solving"]
+        self.mindset    = "Learn Deeply. Build Consistently. Engineer the Future."
+        self.philosophy = "Strong foundations before advanced systems"
 ```
 
-- 🐍 **Currently Learning**: Python internals, data structures & algorithms, mathematical foundations
-- 📂 **Learning Lab**: [`python-foundations`](https://github.com/leelaprasath-cmd/python-foundations) · [`dsa-python`](https://github.com/leelaprasath-cmd/dsa-python)
-- 🎯 **Target Role**: Agentic AI Systems Engineer (Agents, LLMs, Production Systems)
-- ⚙️ **Hardware**: Intel Core i5 / 16GB RAM / WSL2 (Ubuntu 22.04 LTS)
+I'm a Computer Science student with a clear vision: becoming an Agentic AI Engineer. I believe in starting from fundamentals and building up systematically. Currently, I'm in Week 1 of Phase 1 of my structured learning roadmap, focusing on Python, Git, and Linux fundamentals.
+
+- 🎓 **Current Status**: BE CSE Student at Jerusalem College of Engineering
+- 🚀 **Long-term Goal**: Agentic AI Engineer specializing in autonomous systems
+- 📚 **Learning Philosophy**: Deep understanding over quick wins
+- 💡 **Approach**: Document every step, build publicly, learn consistently
 
 ---
 
-<!-- SKILL ICONS -->
-### 💻 leela@systems:~$ ls /usr/local/skills
+<!-- CURRENT FOCUS -->
+## 🎯 Current Focus
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,c,linux,bash,git,github,vscode,md&theme=dark" alt="Current Skills"/>
-  </a>
-</p>
+I'm currently building strong foundations in these areas:
 
-<p align="center"><sub><b>▲ Currently Using</b></sub></p>
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,java,docker,kubernetes,aws,tensorflow,pytorch,flask,fastapi,postgres,redis,kafka&theme=dark" alt="Learning Next"/>
-  </a>
-</p>
-
-<p align="center"><sub><b>▲ Learning Next — On The Roadmap</b></sub></p>
+| Technology | Status | Focus |
+|:---:|:---:|:---|
+| 🐍 **Python** | 🔥 Active | Syntax, data types, control flow, functions |
+| 📦 **Git & GitHub** | 🔥 Active | Version control, collaboration, commit practices |
+| 🐧 **Linux** | 🔥 Active | Command line, file system, basic administration |
+| 🧩 **Problem Solving** | 🔥 Active | Algorithmic thinking, logic building |
+| 📝 **Programming Fundamentals** | 🔥 Active | Clean code, debugging, best practices |
 
 ---
 
-<!-- ROADMAP -->
-### 🗺️ My AI Engineering Roadmap
+<!-- AI ENGINEERING ROADMAP -->
+## 🗺️ AI Engineering Roadmap
 
-> _"Every expert was once a beginner."_ — I am documenting my real, transparent growth from day one.
+> _"The journey of a thousand miles begins with a single step."_ — I'm documenting every step of my journey to becoming an Agentic AI Engineer.
 
-<p align="center">
-  <a href="https://github.com/leelaprasath-cmd">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=500&color=00F2FE&center=true&vCenter=true&width=500&lines=%F0%9F%9F%A8+Phase+1+%E2%80%94+ACTIVE+%E2%80%94+Python+%26+Math+Foundations" alt="Phase 1"/>
-  </a>
-</p>
+### Progress Overview
+
+✅ **Week 1 Completed** — Python basics, Git fundamentals, Linux introduction
+
+### Phase-by-Phase Journey
 
 | Phase | Focus Area | Status |
 |:---:|:---|:---:|
-| 🟨 **Phase 1** | **Python & Math Foundations** — Syntax, Data Structures, Linear Algebra, Calculus, Probability | 🔥 *In Progress* |
-| ⬜ **Phase 2** | **DSA & Problem Solving** — Arrays, Trees, Graphs, Dynamic Programming, Competitive Coding | ⏳ *Upcoming* |
-| ⬜ **Phase 3** | **ML Foundations** — NumPy, Pandas, Scikit-learn, Classical ML Models, Feature Engineering | ⏳ *Upcoming* |
-| ⬜ **Phase 4** | **Deep Learning** — Neural Networks, CNNs, RNNs, Transformers, PyTorch, TensorFlow | ⏳ *Upcoming* |
-| ⬜ **Phase 5** | **NLP & LLMs** — Tokenization, Fine-Tuning, Prompt Engineering, RAG, LangChain | ⏳ *Upcoming* |
-| ⬜ **Phase 6** | **Agentic AI Systems** — Autonomous Agents, Multi-Agent Architectures, Tool Use, Production Deployment | 🎯 *End Goal* |
-
-<p align="center">
-  <a href="https://github.com/leelaprasath-cmd">
-    <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=600&size=14&duration=4000&pause=1000&color=FFD700&center=true&vCenter=true&width=600&lines=%24+progress+--phase+1+--status+%22building+foundations%22;%24+echo+%22Phase+2+unlocks+after+Phase+1+complete%22;%24+roadmap+--show-all+%7C+grep+%22agentic%22" alt="Roadmap Status"/>
-  </a>
-</p>
+| � **Phase 1** | **Foundations** — Python, Git & GitHub, Linux, Problem Solving, DSA, Algorithms, SQL | 🔥 *In Progress* |
+| ⬜ **Phase 2** | **CS + ML** — Statistics, Mathematics, Machine Learning, Scikit-Learn, Model Development | ⏳ *Upcoming* |
+| ⬜ **Phase 3** | **Deep Learning** — PyTorch, Neural Networks, CNNs, RNNs, Transformers | ⏳ *Upcoming* |
+| ⬜ **Phase 4** | **LLMs** — Hugging Face, Fine-Tuning, Prompt Engineering, Embeddings, Vector Search | ⏳ *Upcoming* |
+| ⬜ **Phase 5** | **RAG Systems** — Retrieval Augmented Generation, Vector Databases, Knowledge Systems | ⏳ *Upcoming* |
+| ⬜ **Phase 6** | **AI Agents** — LangChain, LangGraph, Tool Calling, Memory Systems, Agent Workflows | ⏳ *Upcoming* |
+| ⬜ **Phase 7** | **Multi-Agent Systems** — Agent Collaboration, Planning Systems, Orchestration | ⏳ *Upcoming* |
+| ⬜ **Phase 8** | **Production AI** — FastAPI, Docker, CI/CD, Monitoring, Deployment, Scalability | ⏳ *Upcoming* |
+| ⬜ **Phase 9** | **Open Source** — Real Projects, Public Building, Community Contributions | ⏳ *Upcoming* |
 
 ---
 
-<!-- REPOSITORY INDEX -->
-### 📂 Repository Index
+<!-- LEARNING DASHBOARD -->
+## � Learning Dashboard
 
-> My studies are divided into clean, structural repositories:
-
-| # | Repository | Focus |
-|:---:|:---|:---|
-| 1 | [`python-foundations`](https://github.com/leelaprasath-cmd/python-foundations) | Python basics, file systems, clean code, styling standards |
-| 2 | [`dsa-python`](https://github.com/leelaprasath-cmd/dsa-python) | Data structures & core algorithms in Python |
-| 3 | [`roadmap-notes`](https://github.com/leelaprasath-cmd/roadmap-notes) | Theoretical summaries, system diagnostics, reading logs |
-| 4 | [`ml-foundations`](https://github.com/leelaprasath-cmd/ml-foundations) | Linear algebra, calculus, ML models from scratch |
-| 5 | [`backend-engineering`](https://github.com/leelaprasath-cmd/backend-engineering) | API servers, networking, databases, microservices |
-| 6 | [`system-design-notes`](https://github.com/leelaprasath-cmd/system-design-notes) | Scaling, concurrency, caching, distributed architectures |
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    LEARNING DASHBOARD                        │
+├─────────────────────────────────────────────────────────────┤
+│  Current Stage:      Foundations (Phase 1)                  │
+│  Target:             Agentic AI Engineer                     │
+│  Daily Focus:        Consistency and Skill Building          │
+│  Progress:           Week 1 of Phase 1 Complete              │
+│  Commitment:         Building publicly, learning deeply      │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-<!-- ENGINEERING METRICS -->
-### 📈 Engineering Metrics
+<!-- GITHUB STATISTICS -->
+## 📈 GitHub Statistics
 
 <p align="center">
   <a href="https://github.com/leelaprasath-cmd">
@@ -142,22 +136,100 @@ class LeeelaPrasath:
 
 ---
 
-<!-- PHILOSOPHY -->
-### 🧠 Philosophy
+<!-- TECH STACK -->
+## 🛠️ Tech Stack
 
-```text
- ╔══════════════════════════════════════════════════════════╗
- ║  "You cannot construct agentic AI without understanding ║
- ║   the networks and operating systems they run on.       ║
- ║   Build the foundation first."                          ║
- ╚══════════════════════════════════════════════════════════╝
-```
+### Currently Mastering
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,git,github,linux,bash,vscode,md&theme=dark" alt="Current Skills"/>
+  </a>
+</p>
+
+### On The Roadmap
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn,fastapi,docker,postgres,redis&theme=dark" alt="Future Skills"/>
+  </a>
+</p>
 
 ---
 
-<!-- CONNECT -->
+<!-- FUTURE PROJECTS -->
+## 🚀 Future Projects
+
+As I progress through my roadmap, I'll be building projects in these areas:
+
+### Python Projects
+- [ ] File system utilities
+- [ ] Data processing scripts
+- [ ] Automation tools
+- [ ] CLI applications
+
+### DSA Projects
+- [ ] Algorithm implementations
+- [ ] Data structure visualizations
+- [ ] Problem-solving solutions
+- [ ] Competitive programming practice
+
+### Machine Learning Projects
+- [ ] Classical ML models
+- [ ] Data analysis projects
+- [ ] Feature engineering experiments
+- [ ] Model evaluation frameworks
+
+### AI Projects
+- [ ] LLM fine-tuning experiments
+- [ ] RAG pipeline implementations
+- [ ] Agent workflow prototypes
+- [ ] Multi-agent system demos
+
+---
+
+<!-- GROWTH PHILOSOPHY -->
+## 🧠 Growth Philosophy
+
+```
+ ╔══════════════════════════════════════════════════════════╗
+ ║                                                          ║
+ ║     Learn Deeply.                                        ║
+ ║     Build Consistently.                                  ║
+ ║     Share Publicly.                                      ║
+ ║                                                          ║
+ ║     Strong foundations enable extraordinary systems.     ║
+ ║                                                          ║
+ ╚══════════════════════════════════════════════════════════╝
+```
+
+I believe that:
+- **Deep learning** creates lasting understanding
+- **Consistent building** compounds over time
+- **Public sharing** accelerates growth through feedback
+- **Strong foundations** are non-negotiable for complex systems
+
+---
+
+<!-- CONTACT -->
+## 📬 Let's Connect
+
+I'm always open to connecting with fellow learners and experienced engineers. If you have advice, resources, or just want to say hello, feel free to reach out!
+
 <p align="center">
+  <a href="https://www.linkedin.com/in/leela-prasath-p-682121307/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>&nbsp;
+  <a href="mailto:leelaprasath.p.2024.cse@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Get_in_Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>&nbsp;
   <a href="https://github.com/leelaprasath-cmd">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=4000&pause=2000&color=00F2FE&center=true&vCenter=true&width=400&lines=%24+echo+%22Building+the+future%2C+one+commit+at+a+time.%22" alt="Footer"/>
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
+</p>
+
+---
+
+<p align="center">
+  <i>"Building the future, one commit at a time."</i>
 </p>

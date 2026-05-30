@@ -1,0 +1,212 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Premium Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f1a;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="pathGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <linearGradient id="nodeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="completedNodeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow Filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="pathGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Glassmorphism -->
+    <filter id="glassmorphism">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"/>
+      <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.03"/>
+  </pattern>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  
+  <!-- Animated Particles -->
+  <g opacity="0.4">
+    <circle cx="100" cy="100" r="2" fill="#4f46e5">
+      <animate attributeName="cy" values="100;80;100" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="200" r="1.5" fill="#7c3aed">
+      <animate attributeName="cy" values="200;180;200" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="150" r="2" fill="#ec4899">
+      <animate attributeName="cy" values="150;130;150" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="250" r="1.5" fill="#f59e0b">
+      <animate attributeName="cy" values="250;230;250" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="180" r="2" fill="#10b981">
+      <animate attributeName="cy" values="180;160;180" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="220" r="1.5" fill="#4f46e5">
+      <animate attributeName="cy" values="220;200;220" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Journey Path -->
+  <path d="M 80 280 Q 200 280 200 240 Q 200 200 280 200 Q 360 200 360 160 Q 360 120 440 120 Q 520 120 520 160 Q 520 200 600 200 Q 680 200 680 160 Q 680 120 760 120 Q 840 120 840 160 Q 840 200 920 200 Q 1000 200 1000 160 Q 1000 120 1080 120 Q 1120 120 1120 160" 
+        fill="none" 
+        stroke="url(#pathGradient)" 
+        stroke-width="3" 
+        stroke-linecap="round"
+        filter="url(#pathGlow)"
+        opacity="0.6">
+    <animate attributeName="stroke-dasharray" values="0,2000;2000,0" dur="3s" fill="freeze"/>
+  </path>
+  
+  <!-- Animated Light Trail -->
+  <circle r="6" fill="#4f46e5" filter="url(#glow)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M 80 280 Q 200 280 200 240 Q 200 200 280 200 Q 360 200 360 160 Q 360 120 440 120 Q 520 120 520 160 Q 520 200 600 200 Q 680 200 680 160 Q 680 120 760 120 Q 840 120 840 160 Q 840 200 920 200 Q 1000 200 1000 160 Q 1000 120 1080 120 Q 1120 120 1120 160"/>
+    <animate attributeName="fill" values="#4f46e5;#7c3aed;#ec4899;#f59e0b;#10b981" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Journey Nodes -->
+  <g>
+    <!-- Computer Science -->
+    <circle cx="80" cy="280" r="12" fill="url(#completedNodeGradient)" filter="url(#glow)">
+      <animate attributeName="r" values="12;14;12" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="80" y="315" font-family="Segoe UI, sans-serif" font-size="10" fill="#10b981" text-anchor="middle" font-weight="600">CS</text>
+    
+    <!-- Python -->
+    <circle cx="200" cy="240" r="12" fill="url(#completedNodeGradient)" filter="url(#glow)">
+      <animate attributeName="r" values="12;14;12" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+    <text x="200" y="275" font-family="Segoe UI, sans-serif" font-size="10" fill="#10b981" text-anchor="middle" font-weight="600">Python</text>
+    
+    <!-- DSA -->
+    <circle cx="360" cy="160" r="12" fill="url(#nodeGradient)" filter="url(#glow)" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.8;0.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="360" y="195" font-family="Segoe UI, sans-serif" font-size="10" fill="#7c3aed" text-anchor="middle" font-weight="600">DSA</text>
+    
+    <!-- ML -->
+    <circle cx="520" cy="160" r="12" fill="url(#nodeGradient)" filter="url(#glow)" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.7;0.4" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <text x="520" y="195" font-family="Segoe UI, sans-serif" font-size="10" fill="#7c3aed" text-anchor="middle" font-weight="600">ML</text>
+    
+    <!-- Deep Learning -->
+    <circle cx="680" cy="160" r="12" fill="url(#nodeGradient)" filter="url(#glow)" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <text x="680" y="195" font-family="Segoe UI, sans-serif" font-size="10" fill="#7c3aed" text-anchor="middle" font-weight="600">DL</text>
+    
+    <!-- LLMs -->
+    <circle cx="840" cy="160" r="12" fill="url(#nodeGradient)" filter="url(#glow)" opacity="0.25">
+      <animate attributeName="opacity" values="0.25;0.5;0.25" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+    <text x="840" y="195" font-family="Segoe UI, sans-serif" font-size="10" fill="#7c3aed" text-anchor="middle" font-weight="600">LLMs</text>
+    
+    <!-- RAG -->
+    <circle cx="920" cy="200" r="12" fill="url(#nodeGradient)" filter="url(#glow)" opacity="0.2">
+      <animate attributeName="opacity" values="0.2;0.45;0.2" dur="3s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <text x="920" y="235" font-family="Segoe UI, sans-serif" font-size="10" fill="#7c3aed" text-anchor="middle" font-weight="600">RAG</text>
+    
+    <!-- Agents -->
+    <circle cx="1000" cy="160" r="12" fill="url(#nodeGradient)" filter="url(#glow)" opacity="0.15">
+      <animate attributeName="opacity" values="0.15;0.4;0.15" dur="3s" repeatCount="indefinite" begin="2.5s"/>
+    </circle>
+    <text x="1000" y="195" font-family="Segoe UI, sans-serif" font-size="10" fill="#7c3aed" text-anchor="middle" font-weight="600">Agents</text>
+    
+    <!-- Multi-Agent -->
+    <circle cx="1080" cy="120" r="12" fill="url(#nodeGradient)" filter="url(#glow)" opacity="0.1">
+      <animate attributeName="opacity" values="0.1;0.35;0.1" dur="3s" repeatCount="indefinite" begin="3s"/>
+    </circle>
+    <text x="1080" y="155" font-family="Segoe UI, sans-serif" font-size="10" fill="#7c3aed" text-anchor="middle" font-weight="600">Multi-Agent</text>
+    
+    <!-- AI Engineering -->
+    <circle cx="1120" cy="160" r="14" fill="url(#nodeGradient)" filter="url(#glow)" opacity="0.08">
+      <animate attributeName="r" values="14;16;14" dur="3s" repeatCount="indefinite" begin="3.5s"/>
+      <animate attributeName="opacity" values="0.08;0.3;0.08" dur="3s" repeatCount="indefinite" begin="3.5s"/>
+    </circle>
+    <text x="1120" y="195" font-family="Segoe UI, sans-serif" font-size="10" fill="#ec4899" text-anchor="middle" font-weight="600">AI Engineering</text>
+  </g>
+  
+  <!-- Name Section -->
+  <text x="600" y="80" font-family="Segoe UI, sans-serif" font-size="42" fill="#ffffff" text-anchor="middle" font-weight="700" letter-spacing="2">
+    LEELA PRASATH
+  </text>
+  
+  <text x="600" y="115" font-family="Segoe UI, sans-serif" font-size="18" fill="#a5b4fc" text-anchor="middle" font-weight="500" letter-spacing="1">
+    Computer Science Student
+  </text>
+  
+  <text x="600" y="145" font-family="Segoe UI, sans-serif" font-size="16" fill="#7c3aed" text-anchor="middle" font-weight="400" letter-spacing="0.5">
+    Building Towards Agentic AI Engineering
+  </text>
+  
+  <!-- Progress Indicator -->
+  <g transform="translate(450, 340)">
+    <rect x="0" y="0" width="300" height="6" rx="3" fill="#1e1e2e"/>
+    <rect x="0" y="0" width="30" height="6" rx="3" fill="url(#pathGradient)" filter="url(#glow)">
+      <animate attributeName="width" values="30;30" dur="1s" fill="freeze"/>
+    </rect>
+    <text x="150" y="25" font-family="Segoe UI, sans-serif" font-size="12" fill="#a5b4fc" text-anchor="middle" font-weight="500">
+      Week 1 of Phase 1 Complete
+    </text>
+  </g>
+  
+  <!-- Floating Geometric Elements -->
+  <g opacity="0.1">
+    <rect x="50" y="50" width="20" height="20" rx="4" fill="#4f46e5" transform="rotate(15 60 60)">
+      <animateTransform attributeName="transform" type="rotate" from="15 60 60" to="375 60 60" dur="20s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="1150" cy="50" r="15" fill="#ec4899">
+      <animate attributeName="r" values="15;18;15" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <polygon points="1100,350 1120,380 1080,380" fill="#10b981" transform="rotate(-10 1100 370)">
+      <animateTransform attributeName="transform" type="rotate" from="-10 1100 370" to="350 1100 370" dur="25s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+</svg>
