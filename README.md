@@ -2,7 +2,7 @@
 
 <!-- ANIMATED GIF BANNER -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/banner-optimized.gif" alt="The Journey to Agentic AI Engineering" width="100%" />
+  <img src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/banner-typing.gif" alt="The Journey to Agentic AI Engineering" width="100%" />
 </p>
 
 <!-- TYPING ANIMATION - Premium Theme -->
