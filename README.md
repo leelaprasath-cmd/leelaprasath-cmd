@@ -1,13 +1,13 @@
 <div align="center">
 
 <!-- Cinematic Hero Banner -->
-<img src="assets/hero.svg?v=2" width="100%" />
+<img src="assets/hero.svg?v=3" width="100%" />
 
 <br/>
 
 <!-- Elegant Typing Effect -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=22&duration=3500&pause=1000&color=D4AF37&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=80&lines=ARCHITECTING+INTELLIGENT+SYSTEMS;ORCHESTRATING+MULTI-AGENT+WORKFLOWS;ENGINEERING+SCALABLE+BACKENDS;CRAFTING+REAL-TIME+EXPERIENCES" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=22&duration=3500&pause=1000&color=D4AF37&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=160&lines=ARCHITECTING+INTELLIGENT+SYSTEMS;ORCHESTRATING+MULTI-AGENT+WORKFLOWS;ENGINEERING+SCALABLE+BACKENDS;CRAFTING+REAL-TIME+EXPERIENCES" alt="Typing SVG" />
 </a>
 
 <br/><br/><br/>

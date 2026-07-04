@@ -104,6 +104,25 @@
     <text x="750" y="230" opacity="0">&lt;/&gt;<animate attributeName="opacity" values="0; 0.2; 0" dur="13s" repeatCount="indefinite" /></text>
   </g>
 
+  <!-- Orbiting Core (Behind Name) -->
+  <g transform="translate(400, 115)" stroke="#D4AF37" stroke-width="0.7" fill="none" opacity="0.3">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="40s" repeatCount="indefinite" />
+      <ellipse cx="0" cy="0" rx="280" ry="60" opacity="0.5"/>
+      <ellipse cx="0" cy="0" rx="280" ry="60" transform="rotate(60)" opacity="0.3"/>
+      <ellipse cx="0" cy="0" rx="280" ry="60" transform="rotate(120)" opacity="0.4"/>
+    </g>
+    <!-- Subtle expanding waves -->
+    <circle cx="0" cy="0" r="50" opacity="0">
+      <animate attributeName="r" values="50; 350" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.4; 0" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="50" opacity="0">
+      <animate attributeName="r" values="50; 350" dur="8s" begin="4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.4; 0" dur="8s" begin="4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
   <!-- Glowing Flowing Gradient Name -->
   <text x="400" y="130" font-family="'Georgia', serif" font-size="65" font-weight="bold" fill="url(#reflectiveGold)" text-anchor="middle" filter="url(#glow)" letter-spacing="6">
     LEELA PRASATH S
