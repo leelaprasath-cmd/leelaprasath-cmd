@@ -3,7 +3,7 @@
 <!-- Cinematic Hero Banner -->
 <img src="assets/hero.svg?v=5" width="100%" />
 
-<br/>
+<br/><br/><br/>
 
 <!-- Elegant Typing Effect -->
 <a href="https://git.io/typing-svg">
