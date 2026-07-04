@@ -1,0 +1,22 @@
+<svg width="800" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#FFF0A8"/>
+      <stop offset="100%" stop-color="#AA7C11"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <text x="400" y="130" font-family="'Georgia', serif" font-size="65" font-weight="bold" fill="url(#gold)" text-anchor="middle" filter="url(#glow)" letter-spacing="6">
+    LEELA PRASATH S
+  </text>
+  <text x="400" y="180" font-family="'Courier New', monospace" font-size="18" font-weight="normal" fill="#F3E5AB" text-anchor="middle" letter-spacing="8">
+    AGENTIC AI ENGINEER
+  </text>
+</svg>
