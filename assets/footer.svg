@@ -1,0 +1,12 @@
+<svg width="800" height="150" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#FFF0A8"/>
+      <stop offset="100%" stop-color="#AA7C11"/>
+    </linearGradient>
+  </defs>
+  <text x="400" y="80" font-family="'Georgia', serif" font-size="22" font-weight="bold" fill="url(#gold)" text-anchor="middle" letter-spacing="8">
+    B U I L D I N G   T H E   F U T U R E
+  </text>
+</svg>

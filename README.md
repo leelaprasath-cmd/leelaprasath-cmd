@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Cinematic Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00000000&height=250&section=header&text=LEELA%20PRASATH&fontSize=70&fontColor=D4AF37&fontAlignY=40&desc=A%20G%20E%20N%20T%20I%20C%20%20%20A%20I%20%20%20E%20N%20G%20I%20N%20E%20E%20R&descSize=16&descColor=F3E5AB&descAlignY=65" width="100%" />
+<img src="assets/hero.svg" width="100%" />
 
 <br/>
 
@@ -22,7 +22,8 @@
 
 <br/><br/>
 
-<h3>I N T R O D U C T I O N</h3>
+<!-- Introduction Section -->
+<img src="assets/intro.svg" width="800" />
 
 <br/>
 
@@ -38,7 +39,8 @@ BE CSE Student & Full Stack Architect
 
 <br/><br/><br/>
 
-<h3>T H E &nbsp; A R S E N A L</h3>
+<!-- Arsenal Section -->
+<img src="assets/arsenal.svg" width="800" />
 
 <br/>
 
@@ -73,7 +75,8 @@ BE CSE Student & Full Stack Architect
 
 <br/><br/><br/>
 
-<h3>C O R E &nbsp; P R O J E C T S</h3>
+<!-- Projects Section -->
+<img src="assets/projects.svg" width="800" />
 
 <br/>
 
@@ -94,7 +97,8 @@ BE CSE Student & Full Stack Architect
 
 <br/><br/><br/>
 
-<h3>M E T R I C S &nbsp; & &nbsp; I M P A C T</h3>
+<!-- Metrics Section -->
+<img src="assets/metrics.svg" width="800" />
 
 <br/>
 
@@ -119,7 +123,8 @@ BE CSE Student & Full Stack Architect
 
 <br/><br/><br/>
 
-<h3>T R O P H I E S</h3>
+<!-- Trophies Section -->
+<img src="assets/trophies.svg" width="800" />
 
 <br/>
 
@@ -127,7 +132,8 @@ BE CSE Student & Full Stack Architect
 
 <br/><br/><br/>
 
-<h3>C O N T R I B U T I O N S</h3>
+<!-- Contributions Section -->
+<img src="assets/contributions.svg" width="800" />
 
 <br/>
 
@@ -140,6 +146,6 @@ BE CSE Student & Full Stack Architect
 <br/><br/><br/>
 
 <!-- Footer -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=00000000&height=150&section=footer&text=B%20U%20I%20L%20D%20I%20N%20G%20%20%20T%20H%20E%20%20%20F%20U%20T%20U%20R%20E&fontSize=20&fontColor=D4AF37&fontAlignY=50" width="100%" />
+<img src="assets/footer.svg" width="100%" />
 
 </div>
