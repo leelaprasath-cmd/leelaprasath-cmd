@@ -93,7 +93,7 @@
   </g>
 
   <!-- Floating Data Particles -->
-  <g fill="#F3E5AB" font-family="'Courier New', monospace" font-size="14" font-weight="bold">
+  <g fill="#00F2FE" font-family="'Courier New', monospace" font-size="14" font-weight="bold">
     <animateTransform attributeName="transform" type="translate" values="0,50; 0,-50; 0,50" dur="20s" repeatCount="indefinite" />
     <text x="80" y="150" opacity="0">01<animate attributeName="opacity" values="0; 0.25; 0" dur="8s" repeatCount="indefinite" /></text>
     <text x="180" y="220" opacity="0">&lt;/&gt;<animate attributeName="opacity" values="0; 0.2; 0" dur="12s" repeatCount="indefinite" /></text>
@@ -105,7 +105,7 @@
   </g>
 
   <!-- Orbiting Core (Behind Name) -->
-  <g transform="translate(400, 115)" stroke="#D4AF37" stroke-width="0.7" fill="none" opacity="0.3">
+  <g transform="translate(400, 115)" stroke="#00F2FE" stroke-width="0.7" fill="none" opacity="0.4">
     <g>
       <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="40s" repeatCount="indefinite" />
       <ellipse cx="0" cy="0" rx="280" ry="60" opacity="0.5"/>
