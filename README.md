@@ -1,48 +1,55 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=220&section=header&text=Leela%20Prasath&fontSize=55&fontColor=58a6ff&fontAlignY=35&desc=BE%20CSE%20Student%20%7C%20Agentic%20AI%20Engineer&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
+<!-- Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00c6ff,0072ff&height=250&section=header&text=Leela%20Prasath%20S&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=Agentic%20AI%20Engineer%20%7C%20BE%20CSE%20Student&descSize=20&descColor=ffffff&descAlignY=55&animation=twinkling" width="100%" />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%A4%96+Building+AI+Agents+%26+RAG+Pipelines;%F0%9F%94%A7+Real-Time+Systems+with+Socket.io+%26+WebRTC;%F0%9F%A7%A0+Multi-Agent+Workflows+%26+Tool+Use;%E2%9A%A1+Full+Stack+Backend+Engineering" alt="Typing SVG" /></a>
+<!-- Typing Effect -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=00c6ff&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🤖+Building+AI+Agents+%26+RAG+Pipelines;⚡+Real-Time+Systems+with+Socket.io+%26+WebRTC;🧠+Multi-Agent+Workflows+%26+Tool+Use;🚀+Full+Stack+Backend+Engineering" alt="Typing SVG" />
+</a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=leelaprasath-cmd&style=for-the-badge&color=161b22&label=PROFILE+VIEWS" />
-<a href="https://github.com/leelaprasath-cmd?tab=followers"><img src="https://img.shields.io/github/followers/leelaprasath-cmd?style=for-the-badge&color=161b22&labelColor=0d1117&label=FOLLOWERS" /></a>
+<!-- Profile Views & Followers -->
+<img src="https://komarev.com/ghpvc/?username=leelaprasath-cmd&style=for-the-badge&color=0072ff&label=PROFILE+VIEWS" />
+<a href="https://github.com/leelaprasath-cmd?tab=followers"><img src="https://img.shields.io/github/followers/leelaprasath-cmd?style=for-the-badge&color=00c6ff&labelColor=0d1117&label=FOLLOWERS" /></a>
 
 </div>
 
----
+<br/>
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=donut-vertical&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6&cache_seconds=1800" width="280" />
-
-## `> whoami`
-
-```yaml
-name: Leela Prasath S
+<!-- Dashboard Section: About Me & Top Languages -->
+<div align="center">
+  <table width="100%" border="0" style="border: none;">
+    <tr>
+      <td width="50%" align="left" valign="top" style="border: none;">
+        <h3 align="center">👨‍💻 About Me</h3>
+        <pre><code class="language-yaml">name: Leela Prasath S
 role: Agentic AI Engineer
 education: BE CSE Student
 location: Chennai, India 🇮🇳
 focus:
   - AI Agents & Multi-Agent Systems
-  - RAG Pipelines & Vector Databases
+  - RAG Pipelines & Vector DBs
   - Real-Time Chat & Call Systems
-  - Backend Engineering
-currently_building:
-  - Agentic AI Engineering Journey
-  - Real-time Chat & Call Module
-  - ESP32 IoT Communicator
 philosophy: "Ship fast, learn faster."
-```
+</code></pre>
+      </td>
+      <td width="50%" align="center" valign="top" style="border: none;">
+        <h3 align="center">🔥 Top Languages</h3>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=donut-vertical&theme=transparent&hide_border=true&title_color=00c6ff&text_color=c9d1d9&icon_color=0072ff&langs_count=6&cache_seconds=1800" width="300" />
+      </td>
+    </tr>
+  </table>
+</div>
 
-<br clear="right"/>
+<br/>
 
----
-
-## 🛠️ Tech Stack
+<h2 align="center"> 🛠️ Tech Arsenal </h2>
 
 <div align="center">
 
-### ⚡ AI & Agents
+### 🤖 AI & Agents
 <p>
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
 <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" />
@@ -51,7 +58,7 @@ philosophy: "Ship fast, learn faster."
 <img src="https://img.shields.io/badge/RAG_Pipelines-FF6B35?style=for-the-badge&logoColor=white" />
 </p>
 
-### 🔧 Backend & Real-Time
+### ⚡ Backend & Real-Time
 <p>
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
@@ -60,82 +67,90 @@ philosophy: "Ship fast, learn faster."
 <img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" />
 </p>
 
-### 🗄️ Databases
+### 🗄️ Databases & Hardware
 <p>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/Neon-00E5A0?style=for-the-badge&logoColor=black" />
-</p>
-
-### 🚀 Tools & Hardware
-<p>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
 </p>
 
 </div>
 
----
+<br/>
 
-## 🚀 Projects
-
-<div align="center">
-
-<a href="https://github.com/leelaprasath-cmd/agentic-ai-engineering-journey">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=leelaprasath-cmd&repo=agentic-ai-engineering-journey&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&cache_seconds=1800" />
-</a>
-<a href="https://github.com/leelaprasath-cmd/chat-call-module">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=leelaprasath-cmd&repo=chat-call-module&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&cache_seconds=1800" />
-</a>
-<a href="https://github.com/leelaprasath-cmd/ESP32-communicator">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=leelaprasath-cmd&repo=ESP32-communicator&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&cache_seconds=1800" />
-</a>
-
-</div>
-
----
-
-## 🏆 Trophies
+<h2 align="center"> 🚀 Featured Projects </h2>
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=leelaprasath-cmd&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" width="98%" />
+  <table width="100%" style="border: none;">
+    <tr>
+      <td width="50%" align="center" style="border: none;">
+        <a href="https://github.com/leelaprasath-cmd/agentic-ai-engineering-journey">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=leelaprasath-cmd&repo=agentic-ai-engineering-journey&theme=transparent&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=c9d1d9&cache_seconds=1800" width="400" />
+        </a>
+      </td>
+      <td width="50%" align="center" style="border: none;">
+        <a href="https://github.com/leelaprasath-cmd/chat-call-module">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=leelaprasath-cmd&repo=chat-call-module&theme=transparent&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=c9d1d9&cache_seconds=1800" width="400" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center" style="border: none;">
+        <a href="https://github.com/leelaprasath-cmd/ESP32-communicator">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=leelaprasath-cmd&repo=ESP32-communicator&theme=transparent&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=c9d1d9&cache_seconds=1800" width="400" />
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
----
+<br/>
 
-## 🐍 Contribution Snake
+<h2 align="center"> 📈 GitHub Stats </h2>
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake-dark.svg" width="100%" />
-</picture>
+  <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=transparent&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=c9d1d9&cache_seconds=1800" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leelaprasath-cmd&hide_border=true&background=00000000&title_color=00c6ff&text_color=c9d1d9&icon_color=0072ff&ring=00c6ff&fire=0072ff&sideNums=c9d1d9&currStreakNum=c9d1d9&sideLabels=c9d1d9&currStreakLabel=c9d1d9&dates=c9d1d9&cache_seconds=1800" width="48%" />
 </div>
 
----
+<br/>
+
+<h2 align="center"> 🏆 Trophies </h2>
 
 <div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="70%" />
-
-<br/><br/>
-
-```
- █████╗  ██████╗ ███████╗███╗   ██╗████████╗███████╗
-██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝██╔════╝
-███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║   ███████╗
-██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║   ╚════██║
-██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║   ███████║
-╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
-        B U I L D I N G   T H E   F U T U R E
-```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=120&section=footer" width="100%" />
-
+  <img src="https://github-profile-trophy.vercel.app/?username=leelaprasath-cmd&theme=dracula&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%" />
 </div>
+
+<br/>
+
+<h2 align="center"> 🐍 Contribution Graph </h2>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake-dark.svg" width="100%" />
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" width="80%" />
+  <br/><br/>
+  
+  ```text
+   █████╗  ██████╗ ███████╗███╗   ██╗████████╗███████╗
+  ██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝██╔════╝
+  ███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║   ███████╗
+  ██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║   ╚════██║
+  ██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║   ███████║
+  ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
+          B U I L D I N G   T H E   F U T U R E
+  ```
+</div>
+
+<!-- Footer Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0072ff,00c6ff&height=120&section=footer" width="100%" />
