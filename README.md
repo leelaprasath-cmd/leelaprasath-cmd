@@ -17,15 +17,7 @@
 <br/><br/>
 
 <!-- Introduction Section -->
-<img src="assets/intro.svg" width="800" />
-
-<br/>
-
-<i>"Ship fast, learn faster. Build systems that think."</i>
-<br/><br/>
-<b>L E E L A &nbsp; P R A S A T H &nbsp; S</b> <br/>
-Based in Chennai, India 🇮🇳 <br/>
-BE CSE Student & Full Stack Architect
+<img src="assets/intro.svg?v=1" width="800" />
 
 <br/><br/>
 
