@@ -1,5 +1,16 @@
 <svg width="800" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
   <defs>
+
+    <linearGradient id="goldCyanFlow" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="25%" stop-color="#00F2FE"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="75%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+      <animate attributeName="x1" values="0%; -100%" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="200%; 100%" dur="5s" repeatCount="indefinite" />
+    </linearGradient>
+
     <!-- Cinematic Spotlight Background -->
     <radialGradient id="bgGlow" cx="50%" cy="50%" r="75%">
       <stop offset="0%" stop-color="#14110b"/>
@@ -124,12 +135,12 @@
   </g>
 
   <!-- Glowing Flowing Gradient Name -->
-  <text x="400" y="130" font-family="'Georgia', serif" font-size="65" font-weight="bold" fill="url(#reflectiveGold)" text-anchor="middle" filter="url(#glow)" letter-spacing="6">
+  <text x="400" y="130" font-family="'Georgia', serif" font-size="65" font-weight="bold" fill="url(#goldCyanFlow)" text-anchor="middle" filter="url(#glow)" letter-spacing="6">
     LEELA PRASATH S
   </text>
   
   <!-- Subtitle -->
-  <text x="400" y="180" font-family="'Courier New', monospace" font-size="18" font-weight="normal" fill="#F3E5AB" text-anchor="middle" letter-spacing="8">
+  <text x="400" y="180" font-family="'Courier New', monospace" font-size="18" font-weight="normal" fill="url(#goldCyanFlow)" text-anchor="middle" letter-spacing="8">
     AGENTIC AI ENGINEER
   </text>
 </svg>

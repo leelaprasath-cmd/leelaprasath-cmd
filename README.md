@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Cinematic Hero Banner -->
-<img src="assets/hero.svg?v=4" width="100%" />
+<img src="assets/hero.svg?v=5" width="100%" />
 
 <br/>
 
@@ -17,7 +17,7 @@
 <br/><br/>
 
 <!-- Introduction Section -->
-<img src="assets/intro.svg?v=2" width="800" />
+<img src="assets/intro.svg?v=3" width="800" />
 
 <br/><br/>
 
@@ -26,7 +26,7 @@
 <br/><br/><br/>
 
 <!-- Arsenal Section -->
-<img src="assets/arsenal.svg" width="800" />
+<img src="assets/arsenal.svg?v=5" width="800" />
 
 <br/>
 
@@ -62,7 +62,7 @@
 <br/><br/><br/>
 
 <!-- Metrics Section -->
-<img src="assets/metrics.svg" width="800" />
+<img src="assets/metrics.svg?v=5" width="800" />
 
 <br/>
 
@@ -88,7 +88,7 @@
 <br/><br/><br/>
 
 <!-- Contributions Section -->
-<img src="assets/contributions.svg" width="800" />
+<img src="assets/contributions.svg?v=5" width="800" />
 
 <br/>
 
@@ -97,6 +97,6 @@
 <br/><br/><br/>
 
 <!-- Footer -->
-<img src="assets/footer.svg" width="100%" />
+<img src="assets/footer.svg?v=5" width="100%" />
 
 </div>
