@@ -10,12 +10,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=22&duration=3500&pause=1000&color=D4AF37&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=ARCHITECTING+INTELLIGENT+SYSTEMS;ORCHESTRATING+MULTI-AGENT+WORKFLOWS;ENGINEERING+SCALABLE+BACKENDS;CRAFTING+REAL-TIME+EXPERIENCES" alt="Typing SVG" />
 </a>
 
-<br/>
-
-<!-- Minimalist Social/View Badges -->
-<img src="https://komarev.com/ghpvc/?username=leelaprasath-cmd&style=for-the-badge&color=000000&labelColor=D4AF37&label=VIEWS" />
-<a href="https://github.com/leelaprasath-cmd?tab=followers"><img src="https://img.shields.io/github/followers/leelaprasath-cmd?style=for-the-badge&color=000000&labelColor=D4AF37&label=FOLLOWERS" /></a>
-
 <br/><br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=D4AF37&height=2&width=300" />
@@ -75,28 +69,6 @@ BE CSE Student & Full Stack Architect
 
 <br/><br/><br/>
 
-<!-- Projects Section -->
-<img src="assets/projects.svg" width="800" />
-
-<br/>
-
-  <a href="https://github.com/leelaprasath-cmd/agentic-ai-engineering-journey">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=leelaprasath-cmd&repo=agentic-ai-engineering-journey&theme=transparent&hide_border=true&title_color=D4AF37&icon_color=D4AF37&text_color=F3E5AB&cache_seconds=1800" width="400" />
-  </a>
-  <a href="https://github.com/leelaprasath-cmd/chat-call-module">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=leelaprasath-cmd&repo=chat-call-module&theme=transparent&hide_border=true&title_color=D4AF37&icon_color=D4AF37&text_color=F3E5AB&cache_seconds=1800" width="400" />
-  </a>
-  <br/>
-  <a href="https://github.com/leelaprasath-cmd/ESP32-communicator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=leelaprasath-cmd&repo=ESP32-communicator&theme=transparent&hide_border=true&title_color=D4AF37&icon_color=D4AF37&text_color=F3E5AB&cache_seconds=1800" width="400" />
-  </a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=D4AF37&height=1&width=150" />
-
-<br/><br/><br/>
-
 <!-- Metrics Section -->
 <img src="assets/metrics.svg" width="800" />
 
@@ -123,19 +95,14 @@ BE CSE Student & Full Stack Architect
 
 <br/><br/><br/>
 
-<!-- Trophies Section -->
-<img src="assets/trophies.svg" width="800" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=leelaprasath-cmd&theme=nord&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%" />
-
-<br/><br/><br/>
-
 <!-- Contributions Section -->
 <img src="assets/contributions.svg" width="800" />
 
 <br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=leelaprasath-cmd&bg_color=00000000&color=D4AF37&line=AA7C11&point=F3E5AB&area=true&hide_border=true" width="100%" />
+
+<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake-dark.svg" />
