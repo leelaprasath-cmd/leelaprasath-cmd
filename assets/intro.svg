@@ -1,5 +1,16 @@
 <svg width="800" height="230" viewBox="0 0 800 230" xmlns="http://www.w3.org/2000/svg">
   <defs>
+
+    <linearGradient id="goldCyanFlow" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="25%" stop-color="#00F2FE"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="75%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+      <animate attributeName="x1" values="0%; -100%" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="200%; 100%" dur="5s" repeatCount="indefinite" />
+    </linearGradient>
+
     <!-- Cinematic Spotlight Background -->
     <radialGradient id="cardGlow" cx="50%" cy="50%" r="70%">
       <stop offset="0%" stop-color="#14110b" />
@@ -34,7 +45,7 @@
   </defs>
 
   <!-- Background Card with Moving Gradient Border -->
-  <rect x="50" y="50" width="700" height="150" fill="url(#cardGlow)" stroke="url(#borderGradient)" stroke-width="1.5" rx="12"/>
+  <rect x="50" y="50" width="700" height="150" fill="url(#cardGlow)" stroke="url(#goldCyanFlow)" stroke-width="1.5" rx="12"/>
 
   <!-- Futuristic Corner Brackets (Top Left) -->
   <path d="M 50 70 L 50 50 L 70 50" fill="none" stroke="#00F2FE" stroke-width="2" />
@@ -53,7 +64,7 @@
   </line>
 
   <!-- Section Title -->
-  <text x="400" y="30" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="url(#gold)" text-anchor="middle" letter-spacing="8">
+  <text x="400" y="30" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="url(#goldCyanFlow)" text-anchor="middle" letter-spacing="8">
     // INTRODUCTION
   </text>
 
@@ -67,11 +78,11 @@
   <circle cx="400" cy="120" r="3" fill="#FFF0A8" filter="url(#glow)"/>
 
   <!-- Profile Details -->
-  <text x="400" y="150" font-family="'Courier New', monospace" font-size="24" font-weight="bold" fill="url(#gold)" text-anchor="middle" filter="url(#glow)" letter-spacing="4">
+  <text x="400" y="150" font-family="'Courier New', monospace" font-size="24" font-weight="bold" fill="url(#goldCyanFlow)" text-anchor="middle" filter="url(#glow)" letter-spacing="4">
     LEELA PRASATH S
   </text>
 
   <text x="400" y="180" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#a3a3a3" text-anchor="middle" letter-spacing="2">
-    BASED IN CHENNAI, INDIA 🇮🇳 &nbsp;|&nbsp; BE CSE STUDENT &amp; FULL STACK ARCHITECT
+    BASED IN CHENNAI, INDIA 🇮🇳 &#160;|&#160; BE CSE STUDENT &#38; FULL STACK ARCHITECT
   </text>
 </svg>
