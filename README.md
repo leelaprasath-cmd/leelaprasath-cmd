@@ -100,15 +100,7 @@ BE CSE Student & Full Stack Architect
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=leelaprasath-cmd&bg_color=00000000&color=D4AF37&line=AA7C11&point=F3E5AB&area=true&hide_border=true" width="100%" />
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake-dark.svg" width="100%" />
-</picture>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=leelaprasath-cmd&bg_color=00000000&color=D4AF37&line=AA7C11&point=F3E5AB&area=true&area_color=F9E596&hide_border=true" width="100%" />
 
 <br/><br/><br/>
 
