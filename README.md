@@ -7,23 +7,17 @@
 
 <!-- Elegant Typing Effect -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=22&duration=3500&pause=1000&color=D4AF37&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=50&lines=ARCHITECTING+INTELLIGENT+SYSTEMS;ORCHESTRATING+MULTI-AGENT+WORKFLOWS;ENGINEERING+SCALABLE+BACKENDS;CRAFTING+REAL-TIME+EXPERIENCES" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=26&duration=3500&pause=1000&color=D4AF37&center=true&vCenter=true&multiline=false&repeat=true&width=1000&height=50&lines=ARCHITECTING+INTELLIGENT+SYSTEMS;ORCHESTRATING+MULTI-AGENT+WORKFLOWS;ENGINEERING+SCALABLE+BACKENDS;CRAFTING+REAL-TIME+EXPERIENCES" alt="Typing SVG" />
 </a>
 
 <br/><br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=D4AF37&height=2&width=300" />
-
-<br/><br/>
 
 <!-- Introduction Section -->
 <img src="assets/intro.svg?v=3" width="800" />
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=D4AF37&height=1&width=150" />
-
-<br/><br/><br/>
+<br/>
 
 <!-- Arsenal Section -->
 <img src="assets/arsenal.svg?v=5" width="800" />
@@ -57,9 +51,7 @@
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=D4AF37&height=1&width=150" />
-
-<br/><br/><br/>
+<br/>
 
 <!-- Metrics Section -->
 <img src="assets/metrics.svg?v=5" width="800" />
@@ -83,16 +75,14 @@
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=D4AF37&height=1&width=150" />
-
-<br/><br/><br/>
+<br/>
 
 <!-- Contributions Section -->
 <img src="assets/contributions.svg?v=5" width="800" />
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=leelaprasath-cmd&bg_color=00000000&color=D4AF37&line=AA7C11&point=F3E5AB&area=true&area_color=F9E596&hide_border=true" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=leelaprasath-cmd&bg_color=00000000&color=D4AF37&line=00F2FE&point=D4AF37&area=true&area_color=00F2FE&hide_border=true" width="100%" />
 
 <br/><br/><br/>
 
