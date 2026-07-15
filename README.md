@@ -39,20 +39,10 @@ I am a Full-Stack Web Developer and AI Systems Engineer focused on building robu
 
 ---
 
-### 🏆 Achievements & Trophies
+### 🏆 Contributions & Activity
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=leelaprasath-cmd&theme=radical&no-frame=true&no-bg=true&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
-
----
-
-### ⚡ GitHub Analytics
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=react-dark&hide_border=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=compact&theme=react-dark&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-### 🏆 Contributions
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=leelaprasath-cmd&theme=react-dark&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake-dark.svg">
+</picture>
