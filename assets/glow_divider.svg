@@ -1,0 +1,9 @@
+<svg fill="none" viewBox="0 0 800 40" width="800" height="40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-5%" y="-50%" width="110%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+    </filter>
+  </defs>
+  <line x1="200" y1="20" x2="600" y2="20" stroke="#0075FF" stroke-width="4" filter="url(#glow)" />
+  <line x1="200" y1="20" x2="600" y2="20" stroke="#ffffff" stroke-width="1.5" />
+</svg>

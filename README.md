@@ -29,10 +29,10 @@
 
 </div>
 
----
+<img src="assets/glow_divider.svg" width="100%" />
 
 <div align="center">
-  <h2>👨‍💻 About Me</h2>
+<img src="assets/glow_about.svg" width="800" />
   <p>
     🔭 I’m currently working on <b>Full-Stack & AI Systems</b><br>
     🌱 I’m constantly learning <b>New Architectures & Scalable Solutions</b><br>
@@ -41,10 +41,10 @@
   </p>
 </div>
 
----
+<img src="assets/glow_divider.svg" width="100%" />
 
 <div align="center">
-  <h2>🛠️ Tech Stack & Arsenal</h2>
+<img src="assets/glow_tech.svg" width="800" />
   <br/>
   <p>
     <a href="https://skillicons.dev">
@@ -53,10 +53,10 @@
   </p>
 </div>
 
----
+<img src="assets/glow_divider.svg" width="100%" />
 
 <div align="center">
-  <h2>⚡ GitHub Analytics</h2>
+<img src="assets/glow_analytics.svg" width="800" />
   <br/>
   <!-- Total Contributions / GitHub Stats -->
   <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=react-dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="48%" />
@@ -66,7 +66,7 @@
 <br/>
 
 <div align="center">
-  <h2>🏆 My Contributions</h2>
+<img src="assets/glow_contributions.svg" width="800" />
   <br/>
   <!-- Activity Graph in the style of KevinJosh10 -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=leelaprasath-cmd&theme=react-dark&hide_border=true&area=true" alt="Activity Graph" width="100%" />
