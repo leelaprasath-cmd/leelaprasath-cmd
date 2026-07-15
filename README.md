@@ -1,83 +1,80 @@
 <div align="center">
 
-<!-- Cinematic Hero Banner -->
-<img src="assets/hero.svg?v=5" width="100%" />
+<!-- Header Capsule Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0075FF&height=150&section=header&text=Leelaprasath&fontSize=50&fontColor=ffffff&animation=fadeIn" width="100%" />
 
-<br/><br/><br/>
+<br/>
 
 <!-- Elegant Typing Effect -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=26&duration=3500&pause=1000&color=D4AF37&center=true&vCenter=true&multiline=false&repeat=true&width=1000&height=50&lines=ARCHITECTING+INTELLIGENT+SYSTEMS;ORCHESTRATING+MULTI-AGENT+WORKFLOWS;ENGINEERING+SCALABLE+BACKENDS;CRAFTING+REAL-TIME+EXPERIENCES" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=1000&color=0075FF&center=true&vCenter=true&multiline=false&repeat=true&width=800&height=50&lines=Architecting+Intelligent+Systems;Orchestrating+Multi-Agent+Workflows;Engineering+Scalable+Backends;Building+Robust+AI+Solutions" alt="Typing SVG" />
 </a>
 
-<br/><br/><br/>
-
-<!-- Introduction Section -->
-<img src="assets/intro.svg?v=3" width="800" />
-
 <br/><br/>
 
-<br/>
-
-<!-- Arsenal Section -->
-<img src="assets/arsenal.svg?v=5" width="800" />
-
-<br/>
-
-<!-- Premium Black & Gold Badges -->
-<p>
-<img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=langchain&logoColor=D4AF37" />
-<img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=D4AF37" />
-<img src="https://img.shields.io/badge/Google_Gemini-000000?style=for-the-badge&logo=google-gemini&logoColor=D4AF37" />
-<img src="https://img.shields.io/badge/Hugging_Face-000000?style=for-the-badge&logo=huggingface&logoColor=D4AF37" />
-<img src="https://img.shields.io/badge/RAG_Pipelines-000000?style=for-the-badge&logoColor=D4AF37" />
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=D4AF37" />
-<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=D4AF37" />
-<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=D4AF37" />
-<img src="https://img.shields.io/badge/Socket.io-000000?style=for-the-badge&logo=socketdotio&logoColor=D4AF37" />
-<img src="https://img.shields.io/badge/WebRTC-000000?style=for-the-badge&logo=webrtc&logoColor=D4AF37" />
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=D4AF37" />
-<img src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=D4AF37" />
-<img src="https://img.shields.io/badge/Redis-000000?style=for-the-badge&logo=redis&logoColor=D4AF37" />
-<img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=D4AF37" />
-<img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=D4AF37" />
-</p>
+<!-- Social & Contact Badges -->
+<a href="https://linkedin.com/in/leelaprasath">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://github.com/leelaprasath-cmd">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="mailto:kingkevinjosh7@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
 
 <br/><br/>
-
-<br/>
-
-<!-- Metrics Section -->
-<img src="assets/metrics.svg?v=5" width="800" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=react-dark&hide_border=true&count_private=true" width="450" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=compact&theme=react-dark&hide_border=true" width="350" />
-
+<i>"Building products and pushing commits. No excuses."</i>
 <br/><br/>
 
+</div>
+
+---
+
+<div align="center">
+  <h2>👨‍💻 About Me</h2>
+  <p>
+    🔭 I’m currently working on <b>Full-Stack & AI Systems</b><br>
+    🌱 I’m constantly learning <b>New Architectures & Scalable Solutions</b><br>
+    💬 Ask me about <b>React, Node.js, and Python</b><br>
+    ⚡ Fun fact: <b>I love turning complex problems into elegant code.</b>
+  </p>
+</div>
+
+---
+
+<div align="center">
+  <h2>🛠️ Tech Stack & Arsenal</h2>
+  <br/>
+  <p>
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=js,html,css,react,nextjs,nodejs,express,python,mongodb,postgres,redis,aws,docker,git,linux&perline=8" />
+    </a>
+  </p>
+</div>
+
+---
+
+<div align="center">
+  <h2>⚡ GitHub Analytics</h2>
+  <br/>
+  <!-- Total Contributions / GitHub Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=react-dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=compact&theme=react-dark&hide_border=true" alt="Top Languages" width="35%" />
+</div>
+
 <br/>
 
-<!-- Contributions Section -->
-<img src="assets/contributions.svg?v=5" width="800" />
+<div align="center">
+  <h2>🏆 My Contributions</h2>
+  <br/>
+  <!-- Activity Graph in the style of KevinJosh10 -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=leelaprasath-cmd&theme=react-dark&hide_border=true&area=true" alt="Activity Graph" width="100%" />
+</div>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=leelaprasath-cmd&theme=react-dark&hide_border=true&area=true" width="100%" />
-
-<br/><br/><br/>
-
-<!-- Footer -->
-<img src="assets/footer.svg?v=5" width="100%" />
-
+<div align="center">
+  <!-- Footer Capsule Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0075FF&height=100&section=footer" width="100%" />
 </div>
