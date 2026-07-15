@@ -41,33 +41,18 @@ I am a Full-Stack Web Developer and AI Systems Engineer focused on building robu
 
 ### 🏆 Achievements & Trophies
 
-<div align="center">
-  <br>
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=leelaprasath-cmd&amp;theme=radical&amp;no-frame=true&amp;no-bg=true&amp;margin-w=15" alt="GitHub Trophies" />
-  </a>
-  <br>
-</div>
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=leelaprasath-cmd&theme=radical&no-frame=true&no-bg=true&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 ---
 
 ### ⚡ GitHub Analytics
 
-<br>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=react-dark&hide_border=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&amp;show_icons=true&amp;theme=react-dark&amp;hide_border=true&amp;include_all_commits=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&amp;layout=compact&amp;theme=react-dark&amp;hide_border=true" alt="Top Languages" width="35%" />
-</div>
-
-<br>
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=compact&theme=react-dark&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
 ### 🏆 Contributions
 
-<br>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=leelaprasath-cmd&amp;theme=react-dark&amp;hide_border=true&amp;area=true" alt="Activity Graph" width="100%" />
-</div>
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=leelaprasath-cmd&theme=react-dark&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
