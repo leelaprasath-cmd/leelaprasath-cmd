@@ -39,6 +39,12 @@ I am a Full-Stack Web Developer and AI Systems Engineer focused on building robu
 
 ---
 
+### ⚡ GitHub Analytics
+
+[![GitHub Metrics](https://metrics.lecoq.io/leelaprasath-cmd?config.theme=tokyonight&base=header,activity,community,repositories,metadata)](https://github.com/lowlighter/metrics)
+
+---
+
 ### 🏆 Contributions & Activity
 
 <picture>
