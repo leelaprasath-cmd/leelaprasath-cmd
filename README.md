@@ -61,17 +61,17 @@
 <table style="border: none; background-color: transparent;">
   <tr>
     <td align="center" style="border: none; background-color: transparent;">
-      <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=transparent&hide_border=true&title_color=D4AF37&icon_color=D4AF37&text_color=F3E5AB&cache_seconds=1800" width="450" />
+      <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=transparent&hide_border=true&title_color=00F2FE&icon_color=00F2FE&text_color=D4AF37&cache_seconds=1800" width="450" />
     </td>
     <td align="center" style="border: none; background-color: transparent;">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=leelaprasath-cmd&hide_border=true&background=00000000&title_color=D4AF37&text_color=F3E5AB&icon_color=D4AF37&ring=D4AF37&fire=D4AF37&sideNums=F3E5AB&currStreakNum=F3E5AB&sideLabels=F3E5AB&currStreakLabel=F3E5AB&dates=F3E5AB&cache_seconds=1800" width="450" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=leelaprasath-cmd&hide_border=true&background=00000000&title_color=00F2FE&text_color=D4AF37&icon_color=00F2FE&ring=00F2FE&fire=D4AF37&sideNums=D4AF37&currStreakNum=00F2FE&sideLabels=D4AF37&currStreakLabel=D4AF37&dates=D4AF37&cache_seconds=1800" width="450" />
     </td>
   </tr>
 </table>
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=donut-vertical&theme=transparent&hide_border=true&title_color=D4AF37&text_color=F3E5AB&icon_color=D4AF37&langs_count=6&cache_seconds=1800" width="350" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=donut-vertical&theme=transparent&hide_border=true&title_color=00F2FE&text_color=D4AF37&icon_color=00F2FE&langs_count=6&cache_seconds=1800" width="350" />
 
 <br/><br/>
 
