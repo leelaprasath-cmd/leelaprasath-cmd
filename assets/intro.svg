@@ -1,12 +1,12 @@
 <svg width="800" height="230" viewBox="0 0 800 230" xmlns="http://www.w3.org/2000/svg">
   <defs>
 
-    <linearGradient id="goldCyanFlow" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%" stop-color="#D4AF37"/>
-      <stop offset="25%" stop-color="#00F2FE"/>
-      <stop offset="50%" stop-color="#D4AF37"/>
-      <stop offset="75%" stop-color="#00F2FE"/>
-      <stop offset="100%" stop-color="#D4AF37"/>
+    <linearGradient id="quantumFlow" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#0055FF"/>
+      <stop offset="25%" stop-color="#8A2BE2"/>
+      <stop offset="50%" stop-color="#0055FF"/>
+      <stop offset="75%" stop-color="#8A2BE2"/>
+      <stop offset="100%" stop-color="#0055FF"/>
       <animate attributeName="x1" values="0%; -100%" dur="5s" repeatCount="indefinite" />
       <animate attributeName="x2" values="200%; 100%" dur="5s" repeatCount="indefinite" />
     </linearGradient>
@@ -18,17 +18,17 @@
     </radialGradient>
 
     <!-- Gold Gradients -->
-    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#D4AF37"/>
-      <stop offset="50%" stop-color="#FFF0A8"/>
-      <stop offset="100%" stop-color="#D4AF37"/>
+    <linearGradient id="cobalt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0055FF"/>
+      <stop offset="50%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#0055FF"/>
     </linearGradient>
     
     <linearGradient id="borderGradient" x1="0%" y1="0%" x2="200%" y2="0%">
       <stop offset="0%" stop-color="#332912"/>
-      <stop offset="25%" stop-color="#D4AF37"/>
+      <stop offset="25%" stop-color="#0055FF"/>
       <stop offset="50%" stop-color="#332912"/>
-      <stop offset="75%" stop-color="#D4AF37"/>
+      <stop offset="75%" stop-color="#0055FF"/>
       <stop offset="100%" stop-color="#332912"/>
       <animate attributeName="x1" values="0%; -100%" dur="8s" repeatCount="indefinite" />
       <animate attributeName="x2" values="200%; 100%" dur="8s" repeatCount="indefinite" />
@@ -45,40 +45,40 @@
   </defs>
 
   <!-- Background Card with Moving Gradient Border -->
-  <rect x="50" y="50" width="700" height="150" fill="url(#cardGlow)" stroke="url(#goldCyanFlow)" stroke-width="1.5" rx="12"/>
+  <rect x="50" y="50" width="700" height="150" fill="url(#cardGlow)" stroke="url(#quantumFlow)" stroke-width="1.5" rx="12"/>
 
   <!-- Futuristic Corner Brackets (Top Left) -->
-  <path d="M 50 70 L 50 50 L 70 50" fill="none" stroke="#00F2FE" stroke-width="2" />
+  <path d="M 50 70 L 50 50 L 70 50" fill="none" stroke="#8A2BE2" stroke-width="2" />
   <!-- Futuristic Corner Brackets (Bottom Right) -->
-  <path d="M 750 180 L 750 200 L 730 200" fill="none" stroke="#00F2FE" stroke-width="2" />
+  <path d="M 750 180 L 750 200 L 730 200" fill="none" stroke="#8A2BE2" stroke-width="2" />
   <!-- Futuristic Corner Brackets (Top Right) -->
-  <path d="M 730 50 L 750 50 L 750 70" fill="none" stroke="#00F2FE" stroke-width="2" />
+  <path d="M 730 50 L 750 50 L 750 70" fill="none" stroke="#8A2BE2" stroke-width="2" />
   <!-- Futuristic Corner Brackets (Bottom Left) -->
-  <path d="M 70 200 L 50 200 L 50 180" fill="none" stroke="#00F2FE" stroke-width="2" />
+  <path d="M 70 200 L 50 200 L 50 180" fill="none" stroke="#8A2BE2" stroke-width="2" />
 
   <!-- Animated Scanner Line inside the card -->
-  <line x1="55" y1="55" x2="745" y2="55" stroke="#00F2FE" stroke-width="0.5" opacity="0.4" filter="url(#glow)">
+  <line x1="55" y1="55" x2="745" y2="55" stroke="#8A2BE2" stroke-width="0.5" opacity="0.4" filter="url(#glow)">
     <animate attributeName="y1" values="55; 195; 55" dur="6s" repeatCount="indefinite" />
     <animate attributeName="y2" values="55; 195; 55" dur="6s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="0.1; 0.6; 0.1" dur="3s" repeatCount="indefinite" />
   </line>
 
   <!-- Section Title -->
-  <text x="400" y="30" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="url(#goldCyanFlow)" text-anchor="middle" letter-spacing="8">
+  <text x="400" y="30" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="url(#quantumFlow)" text-anchor="middle" letter-spacing="8">
     // INTRODUCTION
   </text>
 
   <!-- Quote -->
-  <text x="400" y="90" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-style="italic" font-size="20" fill="#F3E5AB" text-anchor="middle" opacity="0.9" letter-spacing="1">
+  <text x="400" y="90" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-style="italic" font-size="20" fill="#F8FAFC" text-anchor="middle" opacity="0.9" letter-spacing="1">
     "Ship fast, learn faster. Build systems that think."
   </text>
 
   <!-- Decorative Separator -->
-  <line x1="300" y1="120" x2="500" y2="120" stroke="#D4AF37" stroke-width="1" opacity="0.5"/>
-  <circle cx="400" cy="120" r="3" fill="#FFF0A8" filter="url(#glow)"/>
+  <line x1="300" y1="120" x2="500" y2="120" stroke="#0055FF" stroke-width="1" opacity="0.5"/>
+  <circle cx="400" cy="120" r="3" fill="#F8FAFC" filter="url(#glow)"/>
 
   <!-- Profile Details -->
-  <text x="400" y="150" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#goldCyanFlow)" text-anchor="middle" filter="url(#glow)" letter-spacing="4">
+  <text x="400" y="150" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#quantumFlow)" text-anchor="middle" filter="url(#glow)" letter-spacing="4">
     LEELA PRASATH S
   </text>
 
