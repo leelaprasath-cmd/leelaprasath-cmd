@@ -45,6 +45,9 @@
   <!-- Background Rectangle -->
   <rect width="800" height="250" fill="url(#bgGlow)" rx="15"/>
 
+  <!-- Marvel Background (Iron Man, Spider-Man, Hulk) -->
+  <image href="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/main/assets/marvel_bg.jpg" x="0" y="0" width="800" height="250" preserveAspectRatio="xMidYMid slice" opacity="0.4"/>
+
   <!-- Layer 1: Slow drift up-left -->
   <g stroke="#0055FF" stroke-width="0.5" fill="#0055FF">
     <animateTransform attributeName="transform" type="translate" values="0,0; -15,-10; 5,5; 0,0" dur="18s" repeatCount="indefinite" />

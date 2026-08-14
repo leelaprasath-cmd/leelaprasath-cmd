@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Cinematic Hero Banner -->
-<img src="assets/hero.svg?v=7" width="100%" />
+<img src="assets/hero.svg?v=8" width="100%" />
 
 <br/><br/><br/>
 
