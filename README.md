@@ -1,54 +1,92 @@
 <div align="center">
 
-# Leelaprasath
-**Architecting Intelligent Systems & Scalable Backends**
+<!-- Cinematic Hero Banner -->
+<img src="assets/hero.svg?v=5" width="100%" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/leelaprasath)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leelaprasath-cmd)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kingkevinjosh7@gmail.com)
+<br/><br/><br/>
 
-<br>
+<!-- Elegant Typing Effect -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=26&duration=3500&pause=1000&color=D4AF37&center=true&vCenter=true&multiline=false&repeat=true&width=1000&height=50&lines=ARCHITECTING+INTELLIGENT+SYSTEMS;ORCHESTRATING+MULTI-AGENT+WORKFLOWS;ENGINEERING+SCALABLE+BACKENDS;CRAFTING+REAL-TIME+EXPERIENCES" alt="Typing SVG" />
+</a>
 
-*“Turning complex problems into elegant, scalable code.”*
+<br/><br/><br/>
 
-<br>
+<!-- Introduction Section -->
+<img src="assets/intro.svg?v=3" width="800" />
+
+<br/><br/>
+
+<br/>
+
+<!-- Arsenal Section -->
+<img src="assets/arsenal.svg?v=5" width="800" />
+
+<br/>
+
+<!-- Premium Black & Gold Badges -->
+<p>
+<img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=langchain&logoColor=D4AF37" />
+<img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=D4AF37" />
+<img src="https://img.shields.io/badge/Google_Gemini-000000?style=for-the-badge&logo=google-gemini&logoColor=D4AF37" />
+<img src="https://img.shields.io/badge/Hugging_Face-000000?style=for-the-badge&logo=huggingface&logoColor=D4AF37" />
+<img src="https://img.shields.io/badge/RAG_Pipelines-000000?style=for-the-badge&logoColor=D4AF37" />
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=D4AF37" />
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=D4AF37" />
+<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=D4AF37" />
+<img src="https://img.shields.io/badge/Socket.io-000000?style=for-the-badge&logo=socketdotio&logoColor=D4AF37" />
+<img src="https://img.shields.io/badge/WebRTC-000000?style=for-the-badge&logo=webrtc&logoColor=D4AF37" />
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=D4AF37" />
+<img src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=D4AF37" />
+<img src="https://img.shields.io/badge/Redis-000000?style=for-the-badge&logo=redis&logoColor=D4AF37" />
+<img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=D4AF37" />
+<img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=D4AF37" />
+</p>
+
+<br/><br/>
+
+<br/>
+
+<!-- Metrics Section -->
+<img src="assets/metrics.svg?v=5" width="800" />
+
+<br/>
+
+<table style="border: none; background-color: transparent;">
+  <tr>
+    <td align="center" style="border: none; background-color: transparent;">
+      <img src="https://github-readme-stats.vercel.app/api?username=leelaprasath-cmd&show_icons=true&theme=transparent&hide_border=true&title_color=00F2FE&icon_color=00F2FE&text_color=D4AF37&cache_seconds=1800" width="450" />
+    </td>
+    <td align="center" style="border: none; background-color: transparent;">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=leelaprasath-cmd&hide_border=true&background=00000000&title_color=00F2FE&text_color=D4AF37&icon_color=00F2FE&ring=00F2FE&fire=D4AF37&sideNums=D4AF37&currStreakNum=00F2FE&sideLabels=D4AF37&currStreakLabel=D4AF37&dates=D4AF37&cache_seconds=1800" width="450" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leelaprasath-cmd&layout=donut-vertical&theme=transparent&hide_border=true&title_color=00F2FE&text_color=D4AF37&icon_color=00F2FE&langs_count=6&cache_seconds=1800" width="350" />
+
+<br/><br/>
+
+<br/>
+
+<!-- Contributions Section -->
+<img src="assets/contributions.svg?v=5" width="800" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=leelaprasath-cmd&bg_color=00000000&color=D4AF37&line=00F2FE&point=D4AF37&area=true&area_color=00F2FE&hide_border=true" width="100%" />
+
+<br/><br/><br/>
+
+<!-- Footer -->
+<img src="assets/footer.svg?v=5" width="100%" />
 
 </div>
-
----
-
-### 👨‍💻 Professional Summary
-
-I am a Full-Stack Web Developer and AI Systems Engineer focused on building robust, highly scalable architectures. I specialize in orchestrating multi-agent workflows, crafting real-time experiences, and engineering reliable backend infrastructure.
-
-- 🔭 **Currently working on:** Advanced Agentic AI Systems & Premium Web Applications
-- 🌱 **Currently learning:** Distributed Cloud Architectures and System Design
-- 💬 **Ask me about:** React, Node.js, Python, and scalable infrastructure
-
----
-
-### 🛠️ Tech Arsenal
-
-<div align="center">
-  <br>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,react,nextjs,nodejs,express,python,mongodb,postgres,redis,aws,docker,git,linux&perline=10" alt="Tech Stack" />
-  </a>
-  <br>
-</div>
-
----
-
-### ⚡ GitHub Analytics
-
-[![GitHub Metrics](https://metrics.lecoq.io/leelaprasath-cmd?config.theme=tokyonight&base=header,activity,community,repositories,metadata)](https://github.com/lowlighter/metrics)
-
----
-
-### 🏆 Contributions & Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/leelaprasath-cmd/leelaprasath-cmd/output/github-snake-dark.svg">
-</picture>
