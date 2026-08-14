@@ -1,0 +1,14 @@
+<svg width="800" height="2" viewBox="0 0 800 2" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glowLine" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#14110b"/>
+      <stop offset="25%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#00F2FE"/>
+      <stop offset="75%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#14110b"/>
+      <animate attributeName="x1" values="0%; -100%" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="200%; 100%" dur="4s" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="2" fill="url(#glowLine)" rx="1"/>
+</svg>

@@ -64,12 +64,12 @@
   </line>
 
   <!-- Section Title -->
-  <text x="400" y="30" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="url(#goldCyanFlow)" text-anchor="middle" letter-spacing="8">
+  <text x="400" y="30" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="url(#goldCyanFlow)" text-anchor="middle" letter-spacing="8">
     // INTRODUCTION
   </text>
 
   <!-- Quote -->
-  <text x="400" y="90" font-family="'Georgia', serif" font-style="italic" font-size="20" fill="#F3E5AB" text-anchor="middle" opacity="0.9" letter-spacing="1">
+  <text x="400" y="90" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-style="italic" font-size="20" fill="#F3E5AB" text-anchor="middle" opacity="0.9" letter-spacing="1">
     "Ship fast, learn faster. Build systems that think."
   </text>
 
@@ -78,11 +78,11 @@
   <circle cx="400" cy="120" r="3" fill="#FFF0A8" filter="url(#glow)"/>
 
   <!-- Profile Details -->
-  <text x="400" y="150" font-family="'Courier New', monospace" font-size="24" font-weight="bold" fill="url(#goldCyanFlow)" text-anchor="middle" filter="url(#glow)" letter-spacing="4">
+  <text x="400" y="150" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#goldCyanFlow)" text-anchor="middle" filter="url(#glow)" letter-spacing="4">
     LEELA PRASATH S
   </text>
 
-  <text x="400" y="180" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#a3a3a3" text-anchor="middle" letter-spacing="2">
+  <text x="400" y="180" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#a3a3a3" text-anchor="middle" letter-spacing="2">
     BASED IN CHENNAI, INDIA 🇮🇳 &#160;|&#160; BE CSE STUDENT &#38; FULL STACK ARCHITECT
   </text>
 </svg>
