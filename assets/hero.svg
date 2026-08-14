@@ -1,12 +1,12 @@
 <svg width="800" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
   <defs>
 
-    <linearGradient id="goldCyanFlow" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%" stop-color="#D4AF37"/>
-      <stop offset="25%" stop-color="#00F2FE"/>
-      <stop offset="50%" stop-color="#D4AF37"/>
-      <stop offset="75%" stop-color="#00F2FE"/>
-      <stop offset="100%" stop-color="#D4AF37"/>
+    <linearGradient id="quantumFlow" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#0055FF"/>
+      <stop offset="25%" stop-color="#8A2BE2"/>
+      <stop offset="50%" stop-color="#0055FF"/>
+      <stop offset="75%" stop-color="#8A2BE2"/>
+      <stop offset="100%" stop-color="#0055FF"/>
       <animate attributeName="x1" values="0%; -100%" dur="5s" repeatCount="indefinite" />
       <animate attributeName="x2" values="200%; 100%" dur="5s" repeatCount="indefinite" />
     </linearGradient>
@@ -18,16 +18,16 @@
     </radialGradient>
 
     <!-- Highly Reflective Flowing Gold Gradient -->
-    <linearGradient id="reflectiveGold" x1="0%" y1="0%" x2="200%" y2="0%">
-      <stop offset="0%" stop-color="#9C6F1C"/>
-      <stop offset="20%" stop-color="#F9E596"/>
+    <linearGradient id="holographicCobalt" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#0033CC"/>
+      <stop offset="20%" stop-color="#B066FF"/>
       <stop offset="25%" stop-color="#FFFFFF"/>
-      <stop offset="30%" stop-color="#F9E596"/>
-      <stop offset="50%" stop-color="#9C6F1C"/>
-      <stop offset="70%" stop-color="#F9E596"/>
+      <stop offset="30%" stop-color="#B066FF"/>
+      <stop offset="50%" stop-color="#0033CC"/>
+      <stop offset="70%" stop-color="#B066FF"/>
       <stop offset="75%" stop-color="#FFFFFF"/>
-      <stop offset="80%" stop-color="#F9E596"/>
-      <stop offset="100%" stop-color="#9C6F1C"/>
+      <stop offset="80%" stop-color="#B066FF"/>
+      <stop offset="100%" stop-color="#0033CC"/>
       <animate attributeName="x1" values="0%; -100%" dur="3s" repeatCount="indefinite" />
       <animate attributeName="x2" values="200%; 100%" dur="3s" repeatCount="indefinite" />
     </linearGradient>
@@ -46,7 +46,7 @@
   <rect width="800" height="250" fill="url(#bgGlow)" rx="15"/>
 
   <!-- Layer 1: Slow drift up-left -->
-  <g stroke="#D4AF37" stroke-width="0.5" fill="#D4AF37">
+  <g stroke="#0055FF" stroke-width="0.5" fill="#0055FF">
     <animateTransform attributeName="transform" type="translate" values="0,0; -15,-10; 5,5; 0,0" dur="18s" repeatCount="indefinite" />
     <g opacity="0.4">
       <animate attributeName="opacity" values="0.1; 0.5; 0.1" dur="5s" repeatCount="indefinite" />
@@ -67,7 +67,7 @@
   </g>
 
   <!-- Layer 2: Medium drift down-right -->
-  <g stroke="#D4AF37" stroke-width="0.5" fill="#D4AF37">
+  <g stroke="#0055FF" stroke-width="0.5" fill="#0055FF">
     <animateTransform attributeName="transform" type="translate" values="0,0; 20,15; -5,-10; 0,0" dur="25s" repeatCount="indefinite" />
     <g opacity="0.5">
       <animate attributeName="opacity" values="0.2; 0.6; 0.2" dur="4s" repeatCount="indefinite" />
@@ -88,7 +88,7 @@
   </g>
 
   <!-- Layer 3: Fast drift up-right (Interconnections) -->
-  <g stroke="#D4AF37" stroke-width="0.3" fill="#D4AF37">
+  <g stroke="#0055FF" stroke-width="0.3" fill="#0055FF">
     <animateTransform attributeName="transform" type="translate" values="0,0; 10,-20; -15,10; 0,0" dur="15s" repeatCount="indefinite" />
     <g opacity="0.2">
       <animate attributeName="opacity" values="0.05; 0.25; 0.05" dur="3s" repeatCount="indefinite" />
@@ -104,7 +104,7 @@
   </g>
 
   <!-- Floating Data Particles -->
-  <g fill="#00F2FE" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold">
+  <g fill="#8A2BE2" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold">
     <animateTransform attributeName="transform" type="translate" values="0,50; 0,-50; 0,50" dur="20s" repeatCount="indefinite" />
     <text x="80" y="150" opacity="0">01<animate attributeName="opacity" values="0; 0.25; 0" dur="8s" repeatCount="indefinite" /></text>
     <text x="180" y="220" opacity="0">&lt;/&gt;<animate attributeName="opacity" values="0; 0.2; 0" dur="12s" repeatCount="indefinite" /></text>
@@ -116,7 +116,7 @@
   </g>
 
   <!-- Orbiting Core (Behind Name) -->
-  <g transform="translate(400, 115)" stroke="#00F2FE" stroke-width="0.7" fill="none" opacity="0.4">
+  <g transform="translate(400, 115)" stroke="#8A2BE2" stroke-width="0.7" fill="none" opacity="0.4">
     <g>
       <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="40s" repeatCount="indefinite" />
       <ellipse cx="0" cy="0" rx="280" ry="60" opacity="0.5"/>
@@ -135,12 +135,12 @@
   </g>
 
   <!-- Glowing Flowing Gradient Name -->
-  <text x="400" y="130" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="65" font-weight="bold" fill="url(#goldCyanFlow)" text-anchor="middle" filter="url(#glow)" letter-spacing="6">
+  <text x="400" y="130" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="65" font-weight="bold" fill="url(#quantumFlow)" text-anchor="middle" filter="url(#glow)" letter-spacing="6">
     LEELA PRASATH S
   </text>
   
   <!-- Subtitle -->
-  <text x="400" y="180" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="normal" fill="url(#goldCyanFlow)" text-anchor="middle" letter-spacing="8">
+  <text x="400" y="180" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="normal" fill="url(#quantumFlow)" text-anchor="middle" letter-spacing="8">
     AGENTIC AI ENGINEER
   </text>
 </svg>
