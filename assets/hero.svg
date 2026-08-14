@@ -104,7 +104,7 @@
   </g>
 
   <!-- Floating Data Particles -->
-  <g fill="#00F2FE" font-family="'Courier New', monospace" font-size="14" font-weight="bold">
+  <g fill="#00F2FE" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold">
     <animateTransform attributeName="transform" type="translate" values="0,50; 0,-50; 0,50" dur="20s" repeatCount="indefinite" />
     <text x="80" y="150" opacity="0">01<animate attributeName="opacity" values="0; 0.25; 0" dur="8s" repeatCount="indefinite" /></text>
     <text x="180" y="220" opacity="0">&lt;/&gt;<animate attributeName="opacity" values="0; 0.2; 0" dur="12s" repeatCount="indefinite" /></text>
@@ -135,12 +135,12 @@
   </g>
 
   <!-- Glowing Flowing Gradient Name -->
-  <text x="400" y="130" font-family="'Georgia', serif" font-size="65" font-weight="bold" fill="url(#goldCyanFlow)" text-anchor="middle" filter="url(#glow)" letter-spacing="6">
+  <text x="400" y="130" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="65" font-weight="bold" fill="url(#goldCyanFlow)" text-anchor="middle" filter="url(#glow)" letter-spacing="6">
     LEELA PRASATH S
   </text>
   
   <!-- Subtitle -->
-  <text x="400" y="180" font-family="'Courier New', monospace" font-size="18" font-weight="normal" fill="url(#goldCyanFlow)" text-anchor="middle" letter-spacing="8">
+  <text x="400" y="180" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="normal" fill="url(#goldCyanFlow)" text-anchor="middle" letter-spacing="8">
     AGENTIC AI ENGINEER
   </text>
 </svg>
